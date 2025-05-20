@@ -1,0 +1,552 @@
+no,exact_match,word_accuracy,input_sentence,target_sentence,llm_output,processing_time
+1,True,1.0,Tiap orang punya bend berharga.,Tiap orang punya benda berharga.,Tiap orang punya benda berharga.,6.623973608016968
+2,False,0.0,Bisa juga berpa benda-benda.,Bisa juga berupa benda-benda.,"Benda-benda. (Corrected) 
+
+(I removed ""berpa"" and added a hyphen between ""benda"" and ""benda"")",0.49221253395080566
+3,True,1.0,Dokumen harus dijaga an dirawat.,Dokumen harus dijaga dan dirawat.,Dokumen harus dijaga dan dirawat.,0.19884324073791504
+4,True,1.0,Benda berharga juga haru dipelihara.,Benda berharga juga harus dipelihara.,Benda berharga juga harus dipelihara.,0.20325493812561035
+5,True,1.0,"Jika dirawat, dokumen dan benda berharga tidk mudah rusak.","Jika dirawat, dokumen dan benda berharga tidak mudah rusak.","Jika dirawat, dokumen dan benda berharga tidak mudah rusak.",0.3118579387664795
+6,False,0.2727272727272727,"Guru membimbing anak untuk mengetahui pentingnya mmelihara dokumen dan koleksi benda berharga diri dan keluarga, sehingga anak bisa menghargainya.","Guru membimbing anak untuk mengetahui pentingnya memelihara dokumen dan koleksi benda berharga diri dan keluarga, sehingga anak bisa menghargainya.","Guru membimbing anak untuk mengetahui pentingnya menjaga atau melestarikan dokumen dan koleksi benda berharga di rumah dan keluarga, sehingga anak bisa menghargaiinya.",0.7152097225189209
+7,False,0.625,Guru juga mengenalkan dan menunjukkan contoh bena koleksi.,Guru juga mengenalkan dan menunjukkan contoh benda koleksi.,Guru juga mengenalkan dan menunjukkan contoh-conto koleksi.,0.29732370376586914
+8,False,0.9090909090909091,Suatu hari fadilah melihat ibu menyusun dokmen penting dalam map plastik.,Suatu hari fadilah melihat ibu menyusun dokumen penting dalam map plastik.,Suatu hari Fadillah melihat ibu menyusun dokumen penting dalam map plastik.,0.38608431816101074
+9,False,0.8333333333333334,"Ada akta kelahiran, kartu keluarga, surat tnah, ijazah, dan surat dari eyang.","Ada akta kelahiran, kartu keluarga, surat tanah, ijazah, dan surat dari eyang.","Ada akta kelahiran, kartu keluarga, surat keterangan, ijazah, dan surat dari ayah.",0.45603132247924805
+10,False,0.8571428571428571,Di amplop surat itu masih tertempel perngkonya.,Di amplop surat itu masih tertempel perangkonya.,Di amplop surat itu masih tertempel pangkornya.,0.25693345069885254
+11,True,1.0,Ibu juga menyusun foo-foto dalam album.,Ibu juga menyusun foto-foto dalam album.,Ibu juga menyusun foto-foto dalam album.,0.23122572898864746
+12,False,0.8333333333333334,Di ruang tamu fadilah melihat ayah memersihkan dan membereskan piala di lemari.,Di ruang tamu fadilah melihat ayah membersihkan dan membereskan piala di lemari.,Di ruang tamu fadhalah melihat ayah membersihkan dan membiasakan piala di lemari.,0.42464518547058105
+13,True,1.0,Ayah membersihkan piaa itu.,Ayah membersihkan piala itu.,Ayah membersihkan piala itu.,0.18908905982971191
+14,True,1.0,"Kata ayah dan ibu, dokumen dan bena berharga harus dirawat dengan baik.","Kata ayah dan ibu, dokumen dan benda berharga harus dirawat dengan baik.","Kata ayah dan ibu, dokumen dan benda berharga harus dirawat dengan baik.",0.3521687984466553
+15,True,1.0,Supaya tidak mudah rusak dan dapat dignakan kembali.,Supaya tidak mudah rusak dan dapat digunakan kembali.,Supaya tidak mudah rusak dan dapat digunakan kembali.,0.25942015647888184
+16,False,0.6,Apakah kamu mempunyai kta kelahiran?,Apakah kamu mempunyai akta kelahiran?,Apakah kamu memiliki kartu kelahiran?,0.18793678283691406
+17,True,1.0,Semua orang harus memiiki akta kelahiran.,Semua orang harus memiliki akta kelahiran.,Semua orang harus memiliki akta kelahiran.,0.20016908645629883
+18,True,1.0,Akta kelahiran tidak bole hilang.,Akta kelahiran tidak boleh hilang.,Akta kelahiran tidak boleh hilang.,0.2008953094482422
+19,False,0.8333333333333334,Akta kelahiran harus dijaa dan dipelihara.,Akta kelahiran harus dijaga dan dipelihara.,Akta kelahiran harus disimpan dan dipelihara.,0.2642664909362793
+20,False,0.8,Supaya tidak rusak tau hilang.,Supaya tidak rusak atau hilang.,Supaya tidak rusak ata hilang.,0.17438554763793945
+21,False,0.5,Akta kelahiran bis dilaminating.,Akta kelahiran bisa dilaminating.,Akta kelahiran biasa dilakukan.,0.18628382682800293
+22,True,1.0,Bisa juga dimasukkan dalam map yang berih.,Bisa juga dimasukkan dalam map yang bersih.,Bisa juga dimasukkan dalam map yang bersih.,0.2122666835784912
+23,True,1.0,Lihatlah gambar ni!,Lihatlah gambar ini!,Lihatlah gambar ini!,0.14583730697631836
+24,True,1.0,Gambar di atas merupakan sebagian contoh dokmen.,Gambar di atas merupakan sebagian contoh dokumen.,Gambar di atas merupakan sebagian contoh dokumen.,0.2315526008605957
+25,False,0.2857142857142857,"Kartu keluarga, ktp, dan sim biasanya dilminating supaya tidak rusak.","Kartu keluarga, ktp, dan sim biasanya dilaminating supaya tidak rusak.","Kartu keluarga, KTP, dan SIM biasanya dikumpulkan atau disimpan dengan baik supaya tidak rusak.",0.44008469581604004
+26,False,0.75,Laminating adalah penepresan dokumen.,Laminating adalah pengepresan dokumen.,Laminating adalah pengemasan dokumen.,0.1836254596710205
+27,False,0.5555555555555556,Dokumen dilapisi plastik khusus dan kemudian dipnaskan dengan mesin sampai merekat.,Dokumen dilapisi plastik khusus dan kemudian dipanaskan dengan mesin sampai merekat.,"Dokumen dilapisi plastik khusus dan kemudian ditempa/dipanaskan dengan mesin sampai merekat.
+
+(Dipanaskan is the correct spelling, not ""dipnaskan"")",0.6925559043884277
+28,False,0.8,Ktp dan sim adalah identitas diri yan harus selalu dibawa.,Ktp dan sim adalah identitas diri yang harus selalu dibawa.,KTP dan SIM adalah identitas diri yang harus selalu dibawa.,0.2721717357635498
+29,True,1.0,Koleksi benda berharga dirawat dengan cara dibrsihkan dari debu dan kotoran.,Koleksi benda berharga dirawat dengan cara dibersihkan dari debu dan kotoran.,Koleksi benda berharga dirawat dengan cara dibersihkan dari debu dan kotoran.,0.37700939178466797
+30,False,0.8333333333333334,Tempat untuk menyimpannya un jangan sembarangan.,Tempat untuk menyimpannya pun jangan sembarangan.,Tempat untuk menyimpannya di jangan sembarangan.,0.22755217552185059
+31,True,1.0,Supaya tidak kusam dan tidak mudah rusk.,Supaya tidak kusam dan tidak mudah rusak.,Supaya tidak kusam dan tidak mudah rusak.,0.21828866004943848
+32,False,0.9375,"Contoh benda koleksi adalah piala, medali, uan kuno, buku, perangko lama, lukisan, dan masih banyak lagi.","Contoh benda koleksi adalah piala, medali, uang kuno, buku, perangko lama, lukisan, dan masih banyak lagi.","Contoh benda koleksi adalah piala, medali, ukuran kuno, buku, perangko lama, lukisan, dan masih banyak lagi.",0.5528035163879395
+33,True,1.0,Jika terawat dengan baik harganya jadi mhal.,Jika terawat dengan baik harganya jadi mahal.,Jika terawat dengan baik harganya jadi mahal.,0.26705336570739746
+34,False,0.875,"Jika tidk terawat, kelihatan jelek dan tidak laku.","Jika tidak terawat, kelihatan jelek dan tidak laku.","Jika tidak terawat, kelihatannya jelek dan tidak laku.",0.29950809478759766
+35,False,0.6666666666666666,Sebutkan macam-macam dokmen!,Sebutkan macam-macam dokumen!,Sebutkan macam-macam dokumen.,0.1861739158630371
+36,False,0.8571428571428571,Apa yang terjadi jika dokumen tidak dirwat?,Apa yang terjadi jika dokumen tidak dirawat?,Apa yang terjadi jika dokumen tidak diverifikasi?,0.21947646141052246
+37,False,0.15384615384615385,Bagaimana supaya ktp dan sim menjadi awe?,Bagaimana supaya ktp dan sim menjadi awet?,Bagaimana supaya kartu tanda penduduk (KTP) dan surat izin mengemudi (SIM) menjadi afkir?,0.46329522132873535
+38,False,0.8333333333333334,Apa sajakah benda ang layak dikoleksi?,Apa sajakah benda yang layak dikoleksi?,Apa saja benda yang layak dikoleksi?,0.2181227207183838
+39,True,1.0,Bagaimana cara merawat bend koleksi?,Bagaimana cara merawat benda koleksi?,Bagaimana cara merawat benda koleksi?,0.2187027931213379
+40,False,0.8823529411764706,Jodohkanlah dengan cara menarik garis lurus ntara dokumen di sebelah kiri dengan cara perawatannya di sebelah kanan!,Jodohkanlah dengan cara menarik garis lurus antara dokumen di sebelah kiri dengan cara perawatannya di sebelah kanan!,Jodohkanlah dengan cara menarik garis lurus antara dokumen di sebelah kiri dengan cara perawatan-nya di sebelah kanan.,0.5716166496276855
+41,False,0.8,Cermatilah gambar di bawa ini!,Cermatilah gambar di bawah ini!,Cermatilah gambar di atas ini!,0.20540213584899902
+42,False,0.9230769230769231,"Berilah tanda v pada kolom ya, bukn, atau tidak tahu sesuai dengan pendapatmu.","Berilah tanda v pada kolom ya, bukan, atau tidak tahu sesuai dengan pendapatmu.","Berilah tanda V pada kolom ya, bukan, atau tidak tahu sesuai dengan pendapatmu.",0.40253329277038574
+43,True,1.0,Hasilnya kumpulkan kepda gurumu!,Hasilnya kumpulkan kepada gurumu!,Hasilnya kumpulkan kepada gurumu!,0.2012019157409668
+44,True,1.0,Guru mengajarkan anak cara menyimpan dan merwat dokumen serta koleksi benda berharga pribadi serta keluarganya.,Guru mengajarkan anak cara menyimpan dan merawat dokumen serta koleksi benda berharga pribadi serta keluarganya.,Guru mengajarkan anak cara menyimpan dan merawat dokumen serta koleksi benda berharga pribadi serta keluarganya.,0.5010600090026855
+45,False,0.6666666666666666,Suatu hari mahdi mengajak muti menyusun perngko dalam album.,Suatu hari mahdi mengajak muti menyusun perangko dalam album.,Suatu hari Mahdi mengajak Muti menyusun pernerangkam dalam album.,0.34856128692626953
+46,False,0.75,Muti adalah adi mahdi.,Muti adalah adik mahdi.,Muti adalah asli mahdi.,0.15844011306762695
+47,True,1.0,Mahdi sangat sayang kepaa muti.,Mahdi sangat sayang kepada muti.,Mahdi sangat sayang kepada muti.,0.17325448989868164
+48,True,1.0,"Bersihkan dokumen dan benda koleksi dari ktoran, terutama debu.","Bersihkan dokumen dan benda koleksi dari kotoran, terutama debu.","Bersihkan dokumen dan benda koleksi dari kotoran, terutama debu.",0.362199068069458
+49,True,1.0,Simpan dokumen dan benda koleksi di temat yang kering.,Simpan dokumen dan benda koleksi di tempat yang kering.,Simpan dokumen dan benda koleksi di tempat yang kering.,0.2697117328643799
+50,False,0.8333333333333334,Jangan lupa bersihkan ulu tempat itu.,Jangan lupa bersihkan dulu tempat itu.,Jangan lupa bersihkan ulang tempat itu.,0.23794078826904297
+51,False,0.875,Diberi kapur barus supaya tidak ada bintang pengganggu.,Diberi kapur barus supaya tidak ada binatang pengganggu.,Diberi kapur barus supaya tidak ada bintang pengganggu.,0.2971198558807373
+52,True,1.0,Disimpan dengan rapi an menarik.,Disimpan dengan rapi dan menarik.,Disimpan dengan rapi dan menarik.,0.18970942497253418
+53,False,0.2222222222222222,Dokumen yang ada di map plastik sekli-sekali harus dikeluarkan dulu atau ditukar tempat supaya tidak melekat.,Dokumen yang ada di map plastik sekali-sekali harus dikeluarkan dulu atau ditukar tempat supaya tidak melekat.,Dokumen yang ada di dalam map plastik sekelompok-sekelompok harus dikeluarkan terlebih dahulu atau ditukar tempat supaya tidak melekat.,0.6119840145111084
+54,True,1.0,Jawablah pertanyaan-pertanyaan di bawa ini!,Jawablah pertanyaan-pertanyaan di bawah ini!,Jawablah pertanyaan-pertanyaan di bawah ini!,0.26929593086242676
+55,False,0.0,Apa yang dilakukan mahd dan muti?,Apa yang dilakukan mahdi dan muti?,Mahad,0.07441353797912598
+56,False,0.6666666666666666,Apa akibatnya jika peragko tidak disusun?,Apa akibatnya jika perangko tidak disusun?,Apakah akibatnya jika peragaan tidak disusun?,0.26341772079467773
+57,True,1.0,Bagaimana cara merawat dokumen dan benda kolksi?,Bagaimana cara merawat dokumen dan benda koleksi?,Bagaimana cara merawat dokumen dan benda koleksi?,0.25714707374572754
+58,True,1.0,Sulit atau mudahkah merawat dokumen dan bena koleksi itu?,Sulit atau mudahkah merawat dokumen dan benda koleksi itu?,Sulit atau mudahkah merawat dokumen dan benda koleksi itu?,0.30819129943847656
+59,False,0.9,Mengapa dokumen yang ada dalam map platik harus dikeluarkan sekali-sekali?,Mengapa dokumen yang ada dalam map plastik harus dikeluarkan sekali-sekali?,Mengapa dokumen yang ada dalam mapa plastik harus dikeluarkan sekali-sekali?,0.35682129859924316
+60,False,0.35714285714285715,Ceritakanlah di depan kelas benda apakah yan kamu dan keluargamu koleksi!,Ceritakanlah di depan kelas benda apakah yang kamu dan keluargamu koleksi!,Ceritakanlah di depan kelas benda apa saja yang kamu dan keluarga kamu punya koleksinya!,0.42243099212646484
+61,False,0.8333333333333334,Ceritakan pula bagaimana ara kamu merawatnya!,Ceritakan pula bagaimana cara kamu merawatnya!,Ceritakan pula bagaimana cara kamu merawatnya.,0.26850295066833496
+62,True,1.0,Tempelkan foto pada setiap halaman buku gamar.,Tempelkan foto pada setiap halaman buku gambar.,Tempelkan foto pada setiap halaman buku gambar.,0.24110984802246094
+63,False,0.8,Jangan lupa beri komentarmu atau cerita sinkat tentang foto tersebut.,Jangan lupa beri komentarmu atau cerita singkat tentang foto tersebut.,Jangan lupa beri komentarimu atau cerita sekitar tentang foto tersebut.,0.30469179153442383
+64,False,0.125,Hias sesukamu denan menarik.,Hias sesukamu dengan menarik.,Hiaslah sesuai dengan selera kamu dan buatlah menarik.,0.28844785690307617
+65,False,0.7142857142857143,Dokumen dan koleksi benda harus selalu dirwat dan dipelihara dengan baik.,Dokumen dan koleksi benda harus selalu dirawat dan dipelihara dengan baik.,"Dokumen dan koleksi benda harus selalu digunakan dan dipelihara dengan baik. 
+
+(Digunakan was missing)",0.43404221534729004
+66,False,0.24,"Merupakan contoh dokumen penting adalah foto,  kta kelahiran, ijazah, kartu keluarga, surat tanah, ktp, sim, dan lain-lain.","Merupakan contoh dokumen penting adalah foto,  akta kelahiran, ijazah, kartu keluarga, surat tanah, ktp, sim, dan lain-lain.","Merupakan contoh dokumen penting adalah foto, kta menjadi ""kita"", kelahiran, ijazah, kartu keluarga, surat tanah, KTP (Kartu Tanda Penduduk), SIM (Surat Izin Mengemudi), dan lain-lain.",0.9321470260620117
+67,False,0.5714285714285714,Ktp dan sim biasanya dilaminating supaya awe.,Ktp dan sim biasanya dilaminating supaya awet.,Ktp dan SIM biasanya dilematisir supaya awal.,0.2677781581878662
+68,False,0.75,Memelihara benda koleksi harus diperhatikan tempat an kebersihannya.,Memelihara benda koleksi harus diperhatikan tempat dan kebersihannya.,Memelihara benda koleksi harus diperhatikan pada tempat kebersihannya.,0.3444352149963379
+69,False,0.8888888888888888,Merawat dokumen dan benda koleksi dibutuhkan kemuan yang kuat.,Merawat dokumen dan benda koleksi dibutuhkan kemauan yang kuat.,Merawat dokumen dan benda koleksi dibutuhkan keahlian yang kuat.,0.34073424339294434
+70,True,1.0,Pilihlah jawaban yan benar!,Pilihlah jawaban yang benar!,Pilihlah jawaban yang benar!,0.1701371669769287
+71,True,1.0,Isilah titik-titik di bawah ini dengan jwaban yang benar!,Isilah titik-titik di bawah ini dengan jawaban yang benar!,Isilah titik-titik di bawah ini dengan jawaban yang benar!,0.31612062454223633
+72,False,0.875,Jawablah pertanyaan berikut ini dengan singkat an jelas!,Jawablah pertanyaan berikut ini dengan singkat dan jelas!,Jawablah pertanyaan berikut ini dengan singkat dan jelas.,0.2850685119628906
+73,True,1.0,Siapakah yang harus memelihara dokumen dan bena koleksi keluarga?,Siapakah yang harus memelihara dokumen dan benda koleksi keluarga?,Siapakah yang harus memelihara dokumen dan benda koleksi keluarga?,0.32788896560668945
+74,False,0.9,Apa yang kamu lakukan untuk merawat an memelihara benda koleksi?,Apa yang kamu lakukan untuk merawat dan memelihara benda koleksi?,Apakah yang kamu lakukan untuk merawat dan memelihara benda koleksi?,0.32657861709594727
+75,False,0.3333333333333333,Mengapa dokumen dan benda koleksi harus diplihara?,Mengapa dokumen dan benda koleksi harus dipelihara?,"Mengapa dokumen dan benda koleksi harus dipilihra? 
+
+(To dipilihra, corrected to) 
+Mengapa dokumen dan benda koleksi harus dipilihara?",0.6213772296905518
+76,False,0.8,Bagaimana cara memelihara oleksi piala?,Bagaimana cara memelihara koleksi piala?,Bagaimana cara memeliharai koleksi piala?,0.24631404876708984
+77,True,1.0,Sebutkan apa saja yang termasuk benda kolksi itu?,Sebutkan apa saja yang termasuk benda koleksi itu?,Sebutkan apa saja yang termasuk benda koleksi itu?,0.2554640769958496
+78,False,0.75,Kamu pasti menukai cerita.,Kamu pasti menyukai cerita.,Kamu pasti menuliskan cerita.,0.2047104835510254
+79,True,1.0,Kamu juga suk bercerita.,Kamu juga suka bercerita.,Kamu juga suka bercerita.,0.1923820972442627
+80,False,0.0967741935483871,Dokumen keluarga sebagai sumbr cerita.,Dokumen keluarga sebagai sumber cerita.,"Dokumen keluarga sebagai submerged cerita menjadi tidak tepat karena kata ""submerged"" bukanlah kata yang umum digunakan dalam konteks ini. Meskipun demikian, saya akan mencoretakan kesalahan tersebut:
+
+ Dokumen keluarga sebagai sumbu cerita",0.909571647644043
+81,False,0.8333333333333334,Bisakah kamu bercerita berdsar dokumen keluarga?,Bisakah kamu bercerita berdasar dokumen keluarga?,Bisakah kamu bercerita berdasarkan dokumen keluarga?,0.28346872329711914
+82,False,0.875,Suatu hari roni melihat album foto d lemari.,Suatu hari roni melihat album foto di lemari.,Suatu hari Roni melihat album foto di lemari.,0.22810935974121094
+83,True,1.0,Ternyata album itu berii foto-foto dirinya.,Ternyata album itu berisi foto-foto dirinya.,Ternyata album itu berisi foto-foto dirinya.,0.24226117134094238
+84,True,1.0,Ada fotonya ketika masih bayi sedang digndong ibu.,Ada fotonya ketika masih bayi sedang digendong ibu.,Ada fotonya ketika masih bayi sedang digendong ibu.,0.2741410732269287
+85,False,0.4,Waktu itu roni aru dilahirkan.,Waktu itu roni baru dilahirkan.,Waktu itu Ronnie di lahirkan.,0.17032599449157715
+86,False,0.9,"Ada pula foto-foto lainnya bersama keluarga, ketka roni masih kecil.","Ada pula foto-foto lainnya bersama keluarga, ketika roni masih kecil.","Ada pula foto-foto lainnya bersama keluarga, ketika Roni masih kecil.",0.3650341033935547
+87,False,0.0,"Kalau melihat foto, kita bisa mengenang msa lalu.","Kalau melihat foto, kita bisa mengenang masa lalu.",Mengenang masa lalu.,0.15867877006530762
+88,False,0.3,Kamu bisa melihat dirimu ketika baru bermur satu tahun.,Kamu bisa melihat dirimu ketika baru berumur satu tahun.,Kamu bisa melihat diri kamu ketika baru berumur satu tahun.,0.2892136573791504
+89,True,1.0,Foto bisa mengingatkan kembali kenangan yang sudh kamu lupa.,Foto bisa mengingatkan kembali kenangan yang sudah kamu lupa.,Foto bisa mengingatkan kembali kenangan yang sudah kamu lupa.,0.2743690013885498
+90,False,0.75,Apakah kamu perah difoto?,Apakah kamu pernah difoto?,Apakah kamu sering difoto?,0.15711116790771484
+91,True,1.0,Di mana kam difoto?,Di mana kamu difoto?,Di mana kamu difoto?,0.1318817138671875
+92,False,0.0,Dengan siapa kam difoto?,Dengan siapa kamu difoto?,"Kamurah tidak bisa menterjemahkan teks tersebut, namun kalimat tersebut seharusnya adalah ""Dengan siapa kami difoto?""",0.5182955265045166
+93,True,1.0,Foto harus disimpan dengn baik.,Foto harus disimpan dengan baik.,Foto harus disimpan dengan baik.,0.14719605445861816
+94,True,1.0,Guru membimbing anak agar mereka mengetahui art dokumen dan macam-macam dokumen.,Guru membimbing anak agar mereka mengetahui arti dokumen dan macam-macam dokumen.,Guru membimbing anak agar mereka mengetahui arti dokumen dan macam-macam dokumen.,0.37476253509521484
+95,False,0.75,Guru memperlihatkan mcam-macam dokumen.,Guru memperlihatkan macam-macam dokumen.,Guru memperlihatkan contoh-contoh dokumen.,-0.585996150970459
+96,True,1.0,Ini adalah ftoku.,Ini adalah fotoku.,Ini adalah fotoku.,0.11526036262512207
+97,True,1.0,Foto ini dibuat satu tahun yang lal.,Foto ini dibuat satu tahun yang lalu.,Foto ini dibuat satu tahun yang lalu.,-0.8335785865783691
+98,False,0.5,Foto ini juga ditepel diraporku.,Foto ini juga ditempel diraporku.,Foto ini juga dipelajari di sekolah.,0.20538115501403809
+99,False,0.0,Kalau ini fto keluargaku.,Kalau ini foto keluargaku.,Keluarga saya,0.1045527458190918
+100,False,0.8571428571428571,"Selain ada aku, ada ayah dan ibuu.","Selain ada aku, ada ayah dan ibuku.","Selain ada aku, ada ayah dan ibu.",0.21338820457458496
+101,True,1.0,Kakak dan adikku uga ada.,Kakak dan adikku juga ada.,Kakak dan adikku juga ada.,0.18478035926818848
+102,False,0.375,Bisakah kamu tunjukkan ang mana diriku?,Bisakah kamu tunjukkan yang mana diriku?,Bisakah kamu tunjukkan saya di mana aku berada?,0.24609160423278809
+103,True,1.0,Semua foto disimpan dengan baik oleh aya dan ibu.,Semua foto disimpan dengan baik oleh ayah dan ibu.,Semua foto disimpan dengan baik oleh ayah dan ibu.,0.24709582328796387
+104,False,0.8571428571428571,Suatu saat nanti foto akan jadi kenngan.,Suatu saat nanti foto akan jadi kenangan.,Suatu saat nanti foto akan menjadi kenangan.,0.1976301670074463
+105,True,1.0,Walaupun kamu nanti suda besar.,Walaupun kamu nanti sudah besar.,Walaupun kamu nanti sudah besar.,0.1926875114440918
+106,False,0.2727272727272727,Kamu mash bisa melihat dirimu ketika masih bayi.,Kamu masih bisa melihat dirimu ketika masih bayi.,Kamu juga bisa melihat foto atau video dirimu ketika masih bayi.,0.2851724624633789
+107,False,0.6086956521739131,"Tanyakanlah kepada orang tuamu apakah mereka memliki foto dirimu, misalnya foto ketika kamu bayi, ketika dikhitan, ketika ulang tahun, atau apa pun.","Tanyakanlah kepada orang tuamu apakah mereka memiliki foto dirimu, misalnya foto ketika kamu bayi, ketika dikhitan, ketika ulang tahun, atau apa pun.","Tanyakanlah kepada orang tua-mu apakah mereka memiliki foto dirimu, misalnya foto ketika kamu bayi, ketika di khitin, ketika ulang tahun, atau apa pun.",0.684300422668457
+108,False,0.8571428571428571,Ceritakanlah peristiwa yang ada di foto tu!,Ceritakanlah peristiwa yang ada di foto itu!,Ceritakanlah peristiwa yang ada di foto itu.,0.2415783405303955
+109,False,0.2727272727272727,Minta pula kepda orang tuamu fotomu pada saat sekarang.,Minta pula kepada orang tuamu fotomu pada saat sekarang.,Minta juga kepada orang tua kamu foto mu pada saat sekarang.,0.25604867935180664
+110,True,1.0,Tempelkanlah foto tersebut pada pojok kreativitas yan sudah disiapkan.,Tempelkanlah foto tersebut pada pojok kreativitas yang sudah disiapkan.,Tempelkanlah foto tersebut pada pojok kreativitas yang sudah disiapkan.,0.3124871253967285
+111,True,1.0,Mintalah bantuan gurumu jika kamu mengalami keslitan.,Mintalah bantuan gurumu jika kamu mengalami kesulitan.,Mintalah bantuan gurumu jika kamu mengalami kesulitan.,0.298128604888916
+112,False,0.5,Jangan lupa ber nama.,Jangan lupa beri nama.,Jangan lupa berenama.,0.1594386100769043
+113,False,0.5714285714285714,Perhatikanlah otomu dan foto kawan-kawan sekelasmu.,Perhatikanlah fotomu dan foto kawan-kawan sekelasmu.,Perhatikanlah otomatis dan foto kawan-kawan sekelas mu.,0.2708289623260498
+114,True,1.0,Buatlah suatu pojok kreativitas di kelas sebgai tempat untuk anak-anak menempelkan foto.,Buatlah suatu pojok kreativitas di kelas sebagai tempat untuk anak-anak menempelkan foto.,Buatlah suatu pojok kreativitas di kelas sebagai tempat untuk anak-anak menempelkan foto.,0.4278438091278076
+115,False,0.8,Pojok kreativitas bisa dihias oleh guru ata melibatkan anak-anak untuk menjadikannya lebih semarak dan menarik.,Pojok kreativitas bisa dihias oleh guru atau melibatkan anak-anak untuk menjadikannya lebih semarak dan menarik.,Pojok kreatifitas bisa diperkaya oleh guru dengan melibatkan anak-anak untuk menjadikannya lebih semarak dan menarik.,0.5380237102508545
+116,True,1.0,"Berilah judul atau tema pada pojok kretivitas ini, misalnya ""pojok diriku"" atau ""inilah aku"".","Berilah judul atau tema pada pojok kreativitas ini, misalnya ""pojok diriku"" atau ""inilah aku"".","Berilah judul atau tema pada pojok kreativitas ini, misalnya ""pojok diriku"" atau ""inilah aku"".",0.5246684551239014
+117,False,0.6428571428571429,"Aku lahir tanggal 1, tepatnya tanggal 12 oktober tahun 2000 di bandung, jawab raihan.","Aku lahir tanggal 12, tepatnya tanggal 12 oktober tahun 2000 di bandung, jawab raihan.","Aku lahir tanggal 11, tepatnya tanggal 12 Oktober tahun 2000 di Bandung, Jawaban rahayu.",0.47389674186706543
+118,False,0.6666666666666666,"Namanya adalah akta kelhiran,"" kata raihan.","Namanya adalah akta kelahiran,"" kata raihan.","Namanya adalah akta lahiran,"" kata Rahayu.",0.24172687530517578
+119,False,0.8888888888888888,"Ketika anak dilahirkan, dokter atau bidan memuat surat kelahiran.","Ketika anak dilahirkan, dokter atau bidan membuat surat kelahiran.","Ketika anak dilahirkan, dokter atau bidan mengeluarkan surat kelahiran.",0.3703005313873291
+120,False,0.36363636363636365,"Lalu ayah melaporkannya kepada ak rt, pak rw, dan pak lurah.","Lalu ayah melaporkannya kepada pak rt, pak rw, dan pak lurah.","Lalu ayah melaporkannya kepada aktor, Pak RW, dan Pak Lurah.",0.3590679168701172
+121,False,0.8,Kemudian ayah diberi sura keterangan.,Kemudian ayah diberi surat keterangan.,Kemudian ayah diberikan surat keterangan.,0.25504207611083984
+122,False,0.9166666666666666,Surat keterangan itu dibawanya ke kantor ctatan sipil untuk dibuatkan akta kelahiran.,Surat keterangan itu dibawanya ke kantor catatan sipil untuk dibuatkan akta kelahiran.,Surat keterangan itu dibawakan ke kantor catatan sipil untuk dibuatkan akta kelahiran.,0.4108870029449463
+123,False,0.8888888888888888,Akta kelahiran disebut juga sebagai surat tana kenal lahir.,Akta kelahiran disebut juga sebagai surat tanda kenal lahir.,Akta kelahiran disebut juga sebagai surat tanah kenal lahir.,0.3217353820800781
+124,False,0.0,Semua orang memiliki kta kelahiran.,Semua orang memiliki akta kelahiran.,"Kta harus diubah menjadi ""kita"". 
+
+Semua orang memiliki kita kelahiran.",0.3434598445892334
+125,True,1.0,Akta kelahiran sanat penting.,Akta kelahiran sangat penting.,Akta kelahiran sangat penting.,0.18569231033325195
+126,False,0.3333333333333333,Akta sangat banak gunanya.,Akta sangat banyak gunanya.,Akta sangat bermanfaat bagi banyak orang.,0.2140824794769287
+127,True,1.0,Akta berguna untuk melajutkan sekolah.,Akta berguna untuk melanjutkan sekolah.,Akta berguna untuk melanjutkan sekolah.,0.22698712348937988
+128,True,1.0,Akta juga berguna untu mencari pekerjaan.,Akta juga berguna untuk mencari pekerjaan.,Akta juga berguna untuk mencari pekerjaan.,0.21291160583496094
+129,True,1.0,"Kalau kamu akan pergi ke luar ngeri, kamu memerlukan akta kelahiran.","Kalau kamu akan pergi ke luar negeri, kamu memerlukan akta kelahiran.","Kalau kamu akan pergi ke luar negeri, kamu memerlukan akta kelahiran.",0.36657190322875977
+130,True,1.0,Perhatikanlah akta kelahiran i bawah ini!,Perhatikanlah akta kelahiran di bawah ini!,Perhatikanlah akta kelahiran di bawah ini!,0.2449941635131836
+131,False,0.8333333333333334,"Contoh lain yang termasuk dokumen adalah tp, kartu keluarga, ijazah, dan sim.","Contoh lain yang termasuk dokumen adalah ktp, kartu keluarga, ijazah, dan sim.","Contoh lain yang termasuk dokumen adalah KTP, kartu keluarga, ijazah, dan SIM.",0.40987277030944824
+132,False,0.3333333333333333,Ktp singkatan dari kart tanda penduduk.,Ktp singkatan dari kartu tanda penduduk.,KTP singkatan dari Kartu Tanda Penduduk.,0.2472670078277588
+133,False,0.9090909090909091,Setiap warga negara yang telah berumur 1 tahun harus  memiliki ktp.,Setiap warga negara yang telah berumur 17 tahun harus  memiliki ktp.,Setiap warga negara yang telah berumur 17 tahun harus memiliki KTP.,0.31690359115600586
+134,False,0.3333333333333333,Sim singkatan dari sura ijin mengemudi.,Sim singkatan dari surat ijin mengemudi.,Sim (s)ingkatan dari Surat Ijin Mengemudi.,0.2758336067199707
+135,False,0.8888888888888888,Sim harus dimiliki oleh semua pengendara mtor dan mobil.,Sim harus dimiliki oleh semua pengendara motor dan mobil.,Sim harus dimiliki oleh semua pengemudi motor dan mobil.,0.22823143005371094
+136,True,1.0,Kartu kelarga harus dimiliki oleh setiap keluarga.,Kartu keluarga harus dimiliki oleh setiap keluarga.,Kartu keluarga harus dimiliki oleh setiap keluarga.,0.26958298683166504
+137,True,1.0,Untuk membuat akta kelahiran dibutuhkan kartu kelarga.,Untuk membuat akta kelahiran dibutuhkan kartu keluarga.,Untuk membuat akta kelahiran dibutuhkan kartu keluarga.,0.3099372386932373
+138,False,0.6666666666666666,Apa manfaat fto?,Apa manfaat foto?,Apa manfaat untuknya?,0.16609644889831543
+139,False,0.8333333333333334,Bagaimana cara menyimpan oto yang baik?,Bagaimana cara menyimpan foto yang baik?,Bagaimana cara menyimpan mobil yang baik?,0.19241952896118164
+140,False,0.13043478260869565,Siapakah yang membuat kta kelahiran?,Siapakah yang membuat akta kelahiran?,"Siapakah yang membuat kita lahiran? 
+
+(I corrected ""kta"" to ""kita"", and added the missing letter ""a"" to make it a correct Indonesian word)",0.5929622650146484
+141,True,1.0,Mengapa akta kelahiran sngat penting?,Mengapa akta kelahiran sangat penting?,Mengapa akta kelahiran sangat penting?,0.2209608554840088
+142,True,1.0,Benda apa saja ang termasuk dokumen?,Benda apa saja yang termasuk dokumen?,Benda apa saja yang termasuk dokumen?,0.20814919471740723
+143,False,0.875,Mintalah foto kopi akta kelahiranmu pada orag tuamu.,Mintalah foto kopi akta kelahiranmu pada orang tuamu.,Mintalah foto kopi akte kelahiranmu pada orang tuamu.,0.29048991203308105
+144,False,0.0,Bawalah ke seklah.,Bawalah ke sekolah.,Bawa lah ke sekolah.,0.14737367630004883
+145,False,0.3333333333333333,"Amatilah isinya, lalu isilah pertanyaan-pertanyaan di bwah ini.","Amatilah isinya, lalu isilah pertanyaan-pertanyaan di bawah ini.","Amatilah isinya, lalu isi lah pertanyaan-pertanyaan di bawah ini.",0.3768641948699951
+146,True,1.0,Hasilnya kumpulkan kepda gurumu.,Hasilnya kumpulkan kepada gurumu.,Hasilnya kumpulkan kepada gurumu.,0.20802855491638184
+147,True,1.0,Siapakah nama lenkapmu?,Siapakah nama lengkapmu?,Siapakah nama lengkapmu?,0.1609036922454834
+148,False,0.5,Di manakah temat kelahiranmu?,Di manakah tempat kelahiranmu?,Di mana tema kelahiranmu?,0.15867257118225098
+149,False,0.3333333333333333,Kapankah tanggal kelhiranmu?,Kapankah tanggal kelahiranmu?,Kapanlah tanggal lahir-mu?,0.17316937446594238
+150,False,0.6666666666666666,Siapakah nama ayamu?,Siapakah nama ayahmu?,Siapakah nama ibumu?,0.14316701889038086
+151,False,0.0,Siapakah nama ibuu?,Siapakah nama ibumu?,Siapa namanya ibu?,0.1550602912902832
+152,False,0.3076923076923077,Tanggal berapakah akta kelhiran itu dibuat?,Tanggal berapakah akta kelahiran itu dibuat?,"Tgl. berapakah akta lahiran itu dibuat?
+
+or 
+
+Tanggal berapakah akta kelahiran itu dibuat?",0.4925534725189209
+153,True,1.0,Di manakah akta tu dibuat?,Di manakah akta itu dibuat?,Di manakah akta itu dibuat?,0.17592549324035645
+154,True,1.0,Sekarang kita akan membat map dokumen.,Sekarang kita akan membuat map dokumen.,Sekarang kita akan membuat map dokumen.,0.20460128784179688
+155,False,0.875,Tempelkanlah foto dirimu di bagian paling depn map.,Tempelkanlah foto dirimu di bagian paling depan map.,Tempelkanlah foto dirimu di bagian paling bawah map.,0.2823793888092041
+156,False,0.5714285714285714,Tempelkanlah foto-foto lainnya atau gambar-gambar lucu keskaanmu di bagian depan dan belakang map.,Tempelkanlah foto-foto lainnya atau gambar-gambar lucu kesukaanmu di bagian depan dan belakang map.,"Tempelkanlah foto-foto lainnya atau gambar-gambar lucu kekesa'anmu di bagian depan dan belakang map.
+
+Kesalahan yang saya corrigi adalah 'keskaanmu' menjadi 'kekesaanmu'.",0.8413791656494141
+157,True,1.0,Jangan lupa sisakan bagian untuk menuliskan nmamu sendiri.,Jangan lupa sisakan bagian untuk menuliskan namamu sendiri.,Jangan lupa sisakan bagian untuk menuliskan namamu sendiri.,0.3138244152069092
+158,False,0.875,"Jika mau, buatlah judul untuk map terebut sesukamu.","Jika mau, buatlah judul untuk map tersebut sesukamu.","Jika mau, buatlah judul untuk makalah tersebut sesukamu.",0.2920341491699219
+159,False,0.7777777777777778,Simpanlah foto kopi akta kelahiranmu di ap buatanmu sendiri.,Simpanlah foto kopi akta kelahiranmu di map buatanmu sendiri.,Simpanlah foto kopie akta kelahiranmu di atas buatanmu sendiri.,0.3316357135772705
+160,True,1.0,Guru meminta dan mendorong anak untuk meneritakan peristiwa berkesan yang pernah dialami anak.,Guru meminta dan mendorong anak untuk menceritakan peristiwa berkesan yang pernah dialami anak.,Guru meminta dan mendorong anak untuk menceritakan peristiwa berkesan yang pernah dialami anak.,0.43309831619262695
+161,False,0.8,Deni tidak bosan memperhatika fotonya.,Deni tidak bosan memperhatikan fotonya.,Deni tidak bosan memperhatikan foto-nya.,0.23209166526794434
+162,False,0.875,Foto itu terpasang di dinding dalam ruag keluarga.,Foto itu terpasang di dinding dalam ruang keluarga.,Foto itu terpasang di dinding dalam ruangan keluarga.,0.25902605056762695
+163,False,0.8888888888888888,Di foto itu ia sedang memegang piaa didampingi ibunya.,Di foto itu ia sedang memegang piala didampingi ibunya.,Di foto itu ia sedang memegang piyama didampingi ibunya.,0.302959680557251
+164,True,1.0,Deni merasa sanat bangga.,Deni merasa sangat bangga.,Deni merasa sangat bangga.,0.16406989097595215
+165,False,0.6666666666666666,Saat itu deni mengikui lomba sempoa.,Saat itu deni mengikuti lomba sempoa.,Saat itu Deni mengikuti lomba sepakbola.,0.265596866607666
+166,False,0.4,Deni ditunjuk mewkili sekolahnya.,Deni ditunjuk mewakili sekolahnya.,Deni ditunjuk untuk mewakili sekolahnya.,0.24698519706726074
+167,False,0.8333333333333334,Deni sangat gugup an takut kalah.,Deni sangat gugup dan takut kalah.,Deni sangat gelisah dan takut kalah.,0.21661925315856934
+168,False,0.75,Jantungnya berdetak sanat keras.,Jantungnya berdetak sangat keras.,Jantungnya berdekat sangat keras.,0.1872386932373047
+169,False,0.5,Tanpa disangka den menang.,Tanpa disangka deni menang.,"Tanpa disangka, mereka menang.",0.19536995887756348
+170,True,1.0,Deni senang sekli.,Deni senang sekali.,Deni senang sekali.,0.14648032188415527
+171,True,1.0,Teman-teman dan guru berebutan untuk mengucapkan selmat.,Teman-teman dan guru berebutan untuk mengucapkan selamat.,Teman-teman dan guru berebutan untuk mengucapkan selamat.,0.3017582893371582
+172,True,1.0,Peristiwa itu tidak akan pernah ia lupkan.,Peristiwa itu tidak akan pernah ia lupakan.,Peristiwa itu tidak akan pernah ia lupakan.,0.21489548683166504
+173,True,1.0,Kamu pun pasti memiliki peristiwa atau penalaman yang berkesan.,Kamu pun pasti memiliki peristiwa atau pengalaman yang berkesan.,Kamu pun pasti memiliki peristiwa atau pengalaman yang berkesan.,0.31005430221557617
+174,True,1.0,Ceritakanlah di depan teman-temanmu peristiwa atau penalaman berkesan yang pernah kamu alami itu.,Ceritakanlah di depan teman-temanmu peristiwa atau pengalaman berkesan yang pernah kamu alami itu.,Ceritakanlah di depan teman-temanmu peristiwa atau pengalaman berkesan yang pernah kamu alami itu.,0.5038061141967773
+175,False,0.5,"Lewat foto itu pasya mengenang lagi msa lalunya, ketika ia sedang dikhitan.","Lewat foto itu pasya mengenang lagi masa lalunya, ketika ia sedang dikhitan.","Lewat foto itu, pasya mengenang lagi masa laluannya, ketika ia sedang diKHITING.
+
+ (Corrected deletion error ""dikhitan"" to ""diKHITING"")",0.6637518405914307
+176,False,0.2222222222222222,Ternyata dikhitan tidk sakit.,Ternyata dikhitan tidak sakit.,"Ternyata diKHITAN tdk sakit.
+
+ Corrected:
+Ternyata dikhitin tidak sakit.",0.4217360019683838
+177,True,1.0,Peristiwa khitanan bagi anak laki-laki merupakan perstiwa besar.,Peristiwa khitanan bagi anak laki-laki merupakan peristiwa besar.,Peristiwa khitanan bagi anak laki-laki merupakan peristiwa besar.,0.2976088523864746
+178,False,0.4,Lomba apakah yang diikti deni?,Lomba apakah yang diikuti deni?,Lomba apa yang diikuti?,0.15745210647583008
+179,False,0.75,Apa yang terjadi setelah deni ditunjuk mewkili sekolahnya?,Apa yang terjadi setelah deni ditunjuk mewakili sekolahnya?,Apa yang terjadi setelah Deni ditunjuk memimpin sekolahnya?,0.3187255859375
+180,False,0.5,Bagaimanakah perasaan deni etika melihat fotonya?,Bagaimanakah perasaan deni ketika melihat fotonya?,Bagaimanakah perasaan Deni etika melihat foto-nya?,0.28957152366638184
+181,False,0.375,Foto apakah yang diperlihatkan pasya kepada rman?,Foto apakah yang diperlihatkan pasya kepada arman?,Foto apa yang diperlihatkan pada siapa oleh Rman?,0.2604703903198242
+182,False,0.4,Apakah pasya menangis etika dikhitan?,Apakah pasya menangis ketika dikhitan?,Apakah pesa menangis etika diukhitan?,0.25231313705444336
+183,True,1.0,Foto termasuk dokmen diri.,Foto termasuk dokumen diri.,Foto termasuk dokumen diri.,0.18114805221557617
+184,False,0.625,Foto berguna untuk mengenang peristiwa dimasa lal.,Foto berguna untuk mengenang peristiwa dimasa lalu.,Foto berguna untuk mengenang peristiwa di masa lalu.,0.2673146724700928
+185,False,0.7272727272727273,"Akta kelahiran, kartu keluarga, ktp, ijazah, an sim adalah dokumen penting.","Akta kelahiran, kartu keluarga, ktp, ijazah, dan sim adalah dokumen penting.","Akta kelahiran, kartu keluarga, KTP, Ijazah, dan SIM adalah dokumen penting.",0.4451873302459717
+186,False,0.9,Akta kelahiran disebut juga sebagai surat tana kenal lahir seseorang.,Akta kelahiran disebut juga sebagai surat tanda kenal lahir seseorang.,Akta kelahiran disebut juga sebagai surat tanah kenal lahir seseorang.,0.3605165481567383
+187,True,1.0,Dokumen penting harus dijaga dan dirawat denan baik.,Dokumen penting harus dijaga dan dirawat dengan baik.,Dokumen penting harus dijaga dan dirawat dengan baik.,0.2588069438934326
+188,False,0.8571428571428571,Apa sajakah yang termasuk dokumen penting kelarga?,Apa sajakah yang termasuk dokumen penting keluarga?,Apakah sajakah yang termasuk dokumen penting keluarga?,0.28882575035095215
+189,True,1.0,Apakah alat yang digunakan untuk mengambil fto?,Apakah alat yang digunakan untuk mengambil foto?,Apakah alat yang digunakan untuk mengambil foto?,0.21487951278686523
+190,False,0.0,Sebutkan guna kta kelahiran?,Sebutkan guna akta kelahiran?,SebutkangunaKita kelahiran.,0.18768978118896484
+191,True,1.0,Mengapa dokumen penting keluarga harus dijaga an dirawat?,Mengapa dokumen penting keluarga harus dijaga dan dirawat?,Mengapa dokumen penting keluarga harus dijaga dan dirawat?,0.30882835388183594
+192,False,0.1,Dokumen apakah yang harus dimiliki pengendara mtor dan mobil?,Dokumen apakah yang harus dimiliki pengendara motor dan mobil?,Dokumen apa saja yang harus dimiliki pengemudi motor dan mobil?,0.2729759216308594
+193,True,1.0,Tiap keluarga punya peristia penting.,Tiap keluarga punya peristiwa penting.,Tiap keluarga punya peristiwa penting.,0.2277214527130127
+194,False,0.4,Ada yang menenangkan.,Ada yang menyenangkan.,Ada yang tenang dan menenangkan.,0.17112326622009277
+195,False,0.6666666666666666,Ada yang menedihkan.,Ada yang menyedihkan.,Ada yang mendehkan.,0.13448309898376465
+196,False,0.6666666666666666,Semuanya sangat beruna.,Semuanya sangat berguna.,Semuanya sangat berharga.,0.14464330673217773
+197,True,1.0,Kita bisa ambl hikmahnya.,Kita bisa ambil hikmahnya.,Kita bisa ambil hikmahnya.,0.17231154441833496
+198,False,0.8571428571428571,Guru membimbing anak untuk mengetahui arti perstiwa.,Guru membimbing anak untuk mengetahui arti peristiwa.,Guru membimbing anak untuk mengetahui arti perkistiwa.,0.2851986885070801
+199,True,1.0,Guru juga membimbing dan mendorong anak ntuk menceritakan peristiwa menyenangkan dalam keluarga.,Guru juga membimbing dan mendorong anak untuk menceritakan peristiwa menyenangkan dalam keluarga.,Guru juga membimbing dan mendorong anak untuk menceritakan peristiwa menyenangkan dalam keluarga.,0.42346906661987305
+200,True,1.0,Setiap orang mengalami peristiwa menyenangkan dalam hidpnya.,Setiap orang mengalami peristiwa menyenangkan dalam hidupnya.,Setiap orang mengalami peristiwa menyenangkan dalam hidupnya.,0.2912311553955078
+201,False,0.8571428571428571,Peristiwa yang pernah kita alami disebut penalaman.,Peristiwa yang pernah kita alami disebut pengalaman.,Peristiwa yang pernah kita alami disebut bencanaan.,0.28227949142456055
+202,True,1.0,Bgaimana denganmu?,Bagaimana denganmu?,Bagaimana denganmu?,-0.7168881893157959
+203,True,1.0,Apakah kamu juga memiliki peristiwa menyenangkan berama keluarga?,Apakah kamu juga memiliki peristiwa menyenangkan bersama keluarga?,Apakah kamu juga memiliki peristiwa menyenangkan bersama keluarga?,-0.7090988159179688
+204,False,0.8571428571428571,"Ketika berumur enam tahun, ayah dan bu memasukkan aldo ke sekolah dasar atau sd.","Ketika berumur enam tahun, ayah dan ibu memasukkan aldo ke sekolah dasar atau sd.","Ketika berumur enam tahun, ayah dan ibu memasukkan Aldo ke sekolah dasar atau SD.",0.4250490665435791
+205,False,0.7777777777777778,Aldo senang sekali karena di sd lebh banyak teman.,Aldo senang sekali karena di sd lebih banyak teman.,Aldo senang sekali karena dia sd lah banyak teman.,0.25768327713012695
+206,True,1.0,Ada laki-laki dan da perempuan.,Ada laki-laki dan ada perempuan.,Ada laki-laki dan ada perempuan.,0.20071101188659668
+207,False,0.5,Waktu pertama kali ke sekolah aldo diatar ibu.,Waktu pertama kali ke sekolah aldo diantar ibu.,Waktu pertama kali ke sekolah Aldo berada di atas ibu.,0.28986477851867676
+208,False,0.75,Lama-klamaan aldo jadi berani pergi sendiri ke sekolah.,Lama-kelamaan aldo jadi berani pergi sendiri ke sekolah.,Lamalama anaknya jadi berani pergi sendiri ke sekolah.,0.29285597801208496
+209,True,1.0,Karena sekolahnya dekat dengn rumah.,Karena sekolahnya dekat dengan rumah.,Karena sekolahnya dekat dengan rumah.,0.1980741024017334
+210,False,0.4,"Pulangnya, aldo berjalan aki sendirian.","Pulangnya, aldo berjalan kaki sendirian.","Pulangnya, Aldo berjalan sendirian saja.",0.2589752674102783
+211,False,0.6666666666666666,"Di sekolah, aldo belaar bersama teman-teman.","Di sekolah, aldo belajar bersama teman-teman.","Di sekolah, Aldo belejar bersama teman-teman.",0.2703979015350342
+212,True,1.0,Aldo sangat senang belaar di kelas.,Aldo sangat senang belajar di kelas.,Aldo sangat senang belajar di kelas.,0.21754765510559082
+213,False,0.3333333333333333,Semua guru baik an ramah.,Semua guru baik dan ramah.,Semua guru adalah baik dan ramah.,0.17233014106750488
+214,False,0.9090909090909091,Ibu guru dan bapak guru selalu sbar membimbing aldo dan teman-teman.,Ibu guru dan bapak guru selalu sabar membimbing aldo dan teman-teman.,Ibu guru dan bapak guru selalu sabar membimbing adik dan teman-teman.,0.3795351982116699
+215,False,0.6666666666666666,Aldo dan teman-teman adi rajin belajar.,Aldo dan teman-teman jadi rajin belajar.,Aldo dan teman-temannya sangat rajin belajar.,0.25617337226867676
+216,False,0.29411764705882354,Astri merayakan ulang tahunya yang kedelapan.,Astri merayakan ulang tahunnya yang kedelapan.,"Astri merayakan ulang tahunya yang kedelapan.
+
+ Wait, no correction is needed! The sentence is already correctly spelled.",0.43717169761657715
+217,True,1.0,La mengundang teman-temannya e rumah.,La mengundang teman-temannya ke rumah.,La mengundang teman-temannya ke rumah.,0.22809553146362305
+218,True,1.0,Semua teman menyanyikan lagu selamat ulang tahn sambil bertepuk tangan.,Semua teman menyanyikan lagu selamat ulang tahun sambil bertepuk tangan.,Semua teman menyanyikan lagu selamat ulang tahun sambil bertepuk tangan.,0.3627207279205322
+219,True,1.0,"Astri meniup lilin ulang tahun, jumlahnya da delapan buah.","Astri meniup lilin ulang tahun, jumlahnya ada delapan buah.","Astri meniup lilin ulang tahun, jumlahnya ada delapan buah.",0.317141056060791
+220,False,0.45454545454545453,Astri senang sekali karena orang tua an semua temannya mengucapkan selamat.,Astri senang sekali karena orang tua dan semua temannya mengucapkan selamat.,Astri senang sekali karena orang tuanya semua temannya mengucapkan selamat.,0.3251485824584961
+221,False,0.8,Ayah dan ibu mencium pipi dan kenng astri dengan sayang.,Ayah dan ibu mencium pipi dan kening astri dengan sayang.,Ayah dan ibu mencium pipi dan kenangan asri dengan sayang.,0.29944324493408203
+222,False,0.8571428571428571,La juga senang karena mendapatkan banyak kad.,La juga senang karena mendapatkan banyak kado.,La juga senang karena mendapatkan banyak hadiah.,0.19663596153259277
+223,True,1.0,Kado sebagai hadiah ulan tahun.,Kado sebagai hadiah ulang tahun.,Kado sebagai hadiah ulang tahun.,0.17824649810791016
+224,True,1.0,Isi kado tu bermacam-macam.,Isi kado itu bermacam-macam.,Isi kado itu bermacam-macam.,0.2075803279876709
+225,True,1.0,"Ada boneka, alat tulis, tas, dan lai-lain.","Ada boneka, alat tulis, tas, dan lain-lain.","Ada boneka, alat tulis, tas, dan lain-lain.",0.2742652893066406
+226,False,0.75,Ayah dan ibu juga memberi kado ntuk astri.,Ayah dan ibu juga memberi kado untuk astri.,Ayah dan ibu juga memberikan kado untuk ati.,0.24617242813110352
+227,False,0.3333333333333333,Isinya buku cerita anak bergambar yang bags sekali.,Isinya buku cerita anak bergambar yang bagus sekali.,"Isinya buku cerita anak bergambar yang sangat sekali. 
+
+(Isinya -> isi bukunya dan tidak perlu lagi kata ""buku"" pada kalimat sebelumnya)",0.6102087497711182
+228,False,0.625,Astri mengucapkan terima kasih kepada ayah an ibu.,Astri mengucapkan terima kasih kepada ayah dan ibu.,Astri mengucapkan terima kasih kepada bapak ibu.,0.28855204582214355
+229,False,0.8888888888888888,"Sewaktu nabila berumur enam tahun, ibu melhirkan adik bayi.","Sewaktu nabila berumur enam tahun, ibu melahirkan adik bayi.","Sewaktu Nabila berumur enam tahun, ibu melahirkan adik bayi.",0.3366549015045166
+230,True,1.0,Adik bayi itu laki-laki dan diberi nma lintang.,Adik bayi itu laki-laki dan diberi nama lintang.,Adik bayi itu laki-laki dan diberi nama lintang.,0.2876443862915039
+231,False,0.7142857142857143,Lintang sangat lucu an sering ngompol.,Lintang sangat lucu dan sering ngompol.,Lintang sangat lucu dan sering mengepulkan ludah.,0.2782621383666992
+232,False,0.7142857142857143,Nabila sering membantu ibu mengganti popok linang.,Nabila sering membantu ibu mengganti popok lintang.,Nabila sering membantu ibunya mengganti popok bunting.,0.30022144317626953
+233,False,0.6,Nabila sangat sayang kepaa lintang.,Nabila sangat sayang kepada lintang.,Nabila sangat sayang kepadanya.,0.18581461906433105
+234,False,0.75,"Sejak ada lintang, nabila tidak merasa ksepian lagi.","Sejak ada lintang, nabila tidak merasa kesepian lagi.","Sejak ada langit, Nabilah tidak merasa kesepian lagi.",0.2939450740814209
+235,False,0.8888888888888888,Rendi mengikuti lomba menyanyi antar sekolah dsar di kotanya.,Rendi mengikuti lomba menyanyi antar sekolah dasar di kotanya.,Rendi mengikuti lomba menyanyi antar sekolah dasar di kota-nya.,0.3573880195617676
+236,False,0.25,La mewakili seklahnya.,La mewakili sekolahnya.,La tidak mewakili sekolahnya.,0.18987202644348145
+237,True,1.0,Lomba itu diikuti oleh ratusan siswa yan berasal dari beberapa sekolah dasar.,Lomba itu diikuti oleh ratusan siswa yang berasal dari beberapa sekolah dasar.,Lomba itu diikuti oleh ratusan siswa yang berasal dari beberapa sekolah dasar.,0.36858510971069336
+238,False,0.75,Awalnya rendi sanat gugup.,Awalnya rendi sangat gugup.,Awalnya Rendi sangat gugup.,0.1982581615447998
+239,False,0.0,La takut sekali kala kalah.,La takut sekali kalau kalah.,Laknatlah siapa yang kalah.,0.1898343563079834
+240,False,0.8333333333333334,Rendi takut mengecewakan uru dan teman-temannya.,Rendi takut mengecewakan guru dan teman-temannya.,Rendi takut mengecewakan mereka dan teman-temannya.,0.2837944030761719
+241,False,0.75,Akhirnya pak anwar menasihati rendi supaya tidk usah gugup dan takut kalah.,Akhirnya pak anwar menasihati rendi supaya tidak usah gugup dan takut kalah.,Akhirnya Pak Anwar menasihati Rendi supaya tidak usah gugup dan takut kalah.,0.4073319435119629
+242,False,0.4444444444444444,Pak anwar adalah wali kelas rend di sekolah.,Pak anwar adalah wali kelas rendi di sekolah.,Pak Anwar adalah wali kelas rendidah (koreksi:rendah) di sekolah.,0.3962132930755615
+243,False,0.9230769230769231,Pak anwar bilang kalah itu tidak apaapa asalkan kita sudah berusaha sebaik mungkin.,Pak anwar bilang kalah itu tidak apa-apa asalkan kita sudah berusaha sebaik mungkin.,Pak Anwar bilang kalah itu tidak apa-apa asalkan kita sudah berusaha sebaik mungkin.,0.4182472229003906
+244,True,1.0,Kekalahan bisa dijadikan peljaran nantinya.,Kekalahan bisa dijadikan pelajaran nantinya.,Kekalahan bisa dijadikan pelajaran nantinya.,0.24446344375610352
+245,False,0.7692307692307693,"Setelah mendengar nasihat pak anwar, rendi mersa tenang dan bisa menyanyi dengan baik.","Setelah mendengar nasihat pak anwar, rendi merasa tenang dan bisa menyanyi dengan baik.","Setelah mendengar nasihat Pak Anwar, Rendi merasa tenang dan bisa menyanyi dengan baik.",0.3988065719604492
+246,False,0.8333333333333334,Tanpa disangka rendi menjdi juara pertama.,Tanpa disangka rendi menjadi juara pertama.,Tanpa disangka Rendi menjadi juara pertama.,0.23127436637878418
+247,False,0.14285714285714285,Rendi senang sekali an merasa bangga.,Rendi senang sekali dan merasa bangga.,Rendi sangat senang sekali dan merasa bangga.,0.2277369499206543
+248,True,1.0,La bisa mengharumkan ama sekolahnya.,La bisa mengharumkan nama sekolahnya.,La bisa mengharumkan nama sekolahnya.,0.21567130088806152
+249,False,0.7142857142857143,Guru dan teman-teman mengucapkan selamat pada reni.,Guru dan teman-teman mengucapkan selamat pada rendi.,Guru dan teman-teman mengucapkan selamat atas reni.,0.31641077995300293
+250,False,0.09090909090909091,Rendi berterimakasih atas doa dan dukungan gru dan teman-temannya.,Rendi berterimakasih atas doa dan dukungan guru dan teman-temannya.,Rendi berterima kasih atas doa dan dukungan dari guru dan teman-temannya.,0.35767698287963867
+251,True,1.0,Sofie memiliki peristiwa yang sangat berkesan berama keluarganya.,Sofie memiliki peristiwa yang sangat berkesan bersama keluarganya.,Sofie memiliki peristiwa yang sangat berkesan bersama keluarganya.,0.3152916431427002
+252,False,0.6,Sofie tidak aka melupakannya.,Sofie tidak akan melupakannya.,Sofie tidak akan melupakan itu.,0.1768641471862793
+253,True,1.0,"Setiap liburan sekolah tiba, ayah selalu menajak seluruh keluarga untuk berlibur.","Setiap liburan sekolah tiba, ayah selalu mengajak seluruh keluarga untuk berlibur.","Setiap liburan sekolah tiba, ayah selalu mengajak seluruh keluarga untuk berlibur.",0.42776989936828613
+254,False,0.8125,"Ayah mengajak keluarga berlibur ke rumah orag tua ayah, yaitu kakek dan nenek.","Ayah mengajak keluarga berlibur ke rumah orang tua ayah, yaitu kakek dan nenek.","Ayah mengajak keluarga berlibur ke rumah orang tua ayah, yaitu kakek dan nenek.
+
+(Orag -> Orang)",0.5536892414093018
+255,True,1.0,"Rumah kakek dan nenek ada di lua kota, letaknya ada di pedesaan.","Rumah kakek dan nenek ada di luar kota, letaknya ada di pedesaan.","Rumah kakek dan nenek ada di luar kota, letaknya ada di pedesaan.",0.40690159797668457
+256,True,1.0,"Di desa itu pemandangannya sangat indah, banak pohon dan sawah.","Di desa itu pemandangannya sangat indah, banyak pohon dan sawah.","Di desa itu pemandangannya sangat indah, banyak pohon dan sawah.",0.31659865379333496
+257,True,1.0,Kakek dan nenek uga memiliki sawah.,Kakek dan nenek juga memiliki sawah.,Kakek dan nenek juga memiliki sawah.,0.2002708911895752
+258,False,0.8181818181818182,Hampir setiap hari sofie dan adiknya memawakan makan siang untuk kakek.,Hampir setiap hari sofie dan adiknya membawakan makan siang untuk kakek.,Hampir setiap hari Sofie dan adiknya membawa makan siang untuk kakek.,0.37700676918029785
+259,True,1.0,Ketika kakek mencangkul i sawah.,Ketika kakek mencangkul di sawah.,Ketika kakek mencangkul di sawah.,0.2282547950744629
+260,False,0.8888888888888888,"Ketika kakek makan, sofie dan adiknya suk mencari belut.","Ketika kakek makan, sofie dan adiknya suka mencari belut.","Ketika kakek makan, Sofia dan adiknya suka mencari belut.",0.33603501319885254
+261,True,1.0,Sofie senang sekli.,Sofie senang sekali.,Sofie senang sekali.,0.15586400032043457
+262,False,0.0,"Selain perstiwa yang menyenangkan, ada pula peristiwa yang menyedihkan.","Selain peristiwa yang menyenangkan, ada pula peristiwa yang menyedihkan.",Peristiwa,0.09263277053833008
+263,False,0.5555555555555556,Peristiwa menyenangkan akan membuat kita senang an bahagia.,Peristiwa menyenangkan akan membuat kita senang dan bahagia.,Peristiwa menyenangkan akan membuat kita merasa senang dan bahagia.,0.30046653747558594
+264,True,1.0,Peristiwa menyedihkan membuat kita sedih dan menngis.,Peristiwa menyedihkan membuat kita sedih dan menangis.,Peristiwa menyedihkan membuat kita sedih dan menangis.,0.2717094421386719
+265,False,0.8571428571428571,Seperti apakah contoh-contoh peristiwa yang menyenangkan tu?,Seperti apakah contoh-contoh peristiwa yang menyenangkan itu?,Seperti apa contoh-contoh peristiwa yang menyenangkan itu?,0.2690463066101074
+266,False,0.8333333333333334,Mengapa aldo senang belaar di kelas?,Mengapa aldo senang belajar di kelas?,Mengapa aku senang belajar di kelas?,0.21394586563110352
+267,False,0.8888888888888888,Kado apa yang diberikan ayah dan bu untuk astri?,Kado apa yang diberikan ayah dan ibu untuk astri?,Kado apa yang diberikan ayah dan ibu untuk anaknya.,0.2788515090942383
+268,False,0.5714285714285714,Apa yang dilakukan nabila untuk membantu bu?,Apa yang dilakukan nabila untuk membantu ibu?,Apakah yang dilakukan Nabila untuk membantu bubu.,0.25298190116882324
+269,True,1.0,Mengapa rendi sanat gugup?,Mengapa rendi sangat gugup?,Mengapa rendi sangat gugup?,0.21764731407165527
+270,False,0.6666666666666666,Kamu pasti pernah mengalami pengalaman yang menenangkan.,Kamu pasti pernah mengalami pengalaman yang menyenangkan.,Kamu pasti pernah mengalami pengalaman yang tenang dan menenangkan.,0.3395514488220215
+271,True,1.0,Ingat-ingatlah peristiwa tu.,Ingat-ingatlah peristiwa itu.,Ingat-ingatlah peristiwa itu.,0.19231009483337402
+272,False,0.5,Bualah daftarnya.,Buatlah daftarnya.,Bukalah daftarnya.,0.15912199020385742
+273,False,0.35294117647058826,Guru membimbing anak untuk bisa mengingat perstiwa menyenangkan yang pernah dialami diri dan keluarganya sebanyak-banyaknya.,Guru membimbing anak untuk bisa mengingat peristiwa menyenangkan yang pernah dialami diri dan keluarganya sebanyak-banyaknya.,Guru membimbing anak untuk bisa mengingat prestasi (perstia) menyenangkan yang pernah dialami oleh diri dan keluarganya sebanyak-banyaknya.,0.60129714012146
+274,True,1.0,"Jika kolom di bawah ini tidak ckup, anak boleh membuatnya di halaman buku tulisnya atau di kertas selembar.","Jika kolom di bawah ini tidak cukup, anak boleh membuatnya di halaman buku tulisnya atau di kertas selembar.","Jika kolom di bawah ini tidak cukup, anak boleh membuatnya di halaman buku tulisnya atau di kertas selembar.",0.5227384567260742
+275,False,0.0,"Pilihlah salah satu dari peristiwa yang berasil kamu ingat itu, manakah yang paling berkesan.","Pilihlah salah satu dari peristiwa yang berhasil kamu ingat itu, manakah yang paling berkesan.",Peristiwa yang berasal kamu ingat itulah.,0.24723458290100098
+276,True,1.0,Cobalah ceritakan di depan teman-temanmu tentang perstiwa menyenangkan itu.,Cobalah ceritakan di depan teman-temanmu tentang peristiwa menyenangkan itu.,Cobalah ceritakan di depan teman-temanmu tentang peristiwa menyenangkan itu.,0.38624072074890137
+277,False,0.3333333333333333,Guru membimbing anak untuk bisa mengingat an menceritakan peristiwa menyedihkan yang pernah terjadi pada diri dan keluarganya.,Guru membimbing anak untuk bisa mengingat dan menceritakan peristiwa menyedihkan yang pernah terjadi pada diri dan keluarganya.,Guru membimbing anak untuk bisa mengingat bahwa ia menceritakan peristiwa menyedihkan yang pernah terjadi pada dirinya dan keluarganya.,0.5843040943145752
+278,False,0.5,Suatu hari badan lif demam.,Suatu hari badan alif demam.,Suatu hari badan saya merasa demam.,0.19663596153259277
+279,False,0.6666666666666666,Badannya panas sekli.,Badannya panas sekali.,"Badannya panas sekiligi,",0.16205286979675293
+280,False,0.5,Ibu membawa alif ke dokter dekat rumh.,Ibu membawa alif ke dokter dekat rumah.,Ibu membawa Alif ke dokter di dekat rumah.,0.25806689262390137
+281,False,0.6666666666666666,"Kata dokter, alif saki demam berdarah.","Kata dokter, alif sakit demam berdarah.","Kata dokter, Alifski mengalami demam berdarah.",0.298159122467041
+282,True,1.0,Alif harus irawat di rumah sakit.,Alif harus dirawat di rumah sakit.,Alif harus dirawat di rumah sakit.,0.2118394374847412
+283,True,1.0,Demam berdarah adalah penykit berbahaya.,Demam berdarah adalah penyakit berbahaya.,Demam berdarah adalah penyakit berbahaya.,0.21871256828308105
+284,False,0.8,Alif dirawat selama sepuuh hari.,Alif dirawat selama sepuluh hari.,Alif dirawat selama semuanya hari.,0.21848464012145996
+285,False,0.037037037037037035,Selama dirawat alif dibei infus.,Selama dirawat alif diberi infus.,"Selama di rawat di bed, saya tidak yakin apakah ada kata ""alif"" yang benar karena biasanya berarti anak masih bayi dan sedang disapih susu formula oleh ibunya.",0.6904342174530029
+286,True,1.0,Banyak teman sekolah dan tetangga dekat rumh yang menjenguk.,Banyak teman sekolah dan tetangga dekat rumah yang menjenguk.,Banyak teman sekolah dan tetangga dekat rumah yang menjenguk.,0.31843113899230957
+287,True,1.0,Alif sedih sekali karena tidak bisa berain dan belajar bersama teman-temannya selama sakit.,Alif sedih sekali karena tidak bisa bermain dan belajar bersama teman-temannya selama sakit.,Alif sedih sekali karena tidak bisa bermain dan belajar bersama teman-temannya selama sakit.,0.41910481452941895
+288,True,1.0,Alif tidak mau lagi dirawat di rumh sakit.,Alif tidak mau lagi dirawat di rumah sakit.,Alif tidak mau lagi dirawat di rumah sakit.,0.24818849563598633
+289,False,0.8888888888888888,"Waktu rani berumur empat tahun, kakek sudh sakit keras.","Waktu rani berumur empat tahun, kakek sudah sakit keras.","Waktu ratu berumur empat tahun, kakek sudah sakit keras.",0.31783580780029297
+290,False,0.8333333333333334,Kakek sering irawat di rumah sakit.,Kakek sering dirawat di rumah sakit.,Kakek sering merawat di rumah sakit.,0.2426598072052002
+291,False,0.8,"Ketika sedang berkumpul bersama di ruang kelarga, paman menelepon ayah.","Ketika sedang berkumpul bersama di ruang keluarga, paman menelepon ayah.","Ketika sedang berkumpul bersama di rumah keluarga, paman menelpon ayah.",0.402585506439209
+292,True,1.0,Paman mengabarkan kakek suda meninggal dunia.,Paman mengabarkan kakek sudah meninggal dunia.,Paman mengabarkan kakek sudah meninggal dunia.,0.2604525089263916
+293,True,1.0,Setelah itu kluarga rani langsung pergi ke rumah kakek.,Setelah itu keluarga rani langsung pergi ke rumah kakek.,Setelah itu keluarga rani langsung pergi ke rumah kakek.,0.33206963539123535
+294,False,0.8,Di rumah kakek sudah banyak orang yan datang melayat.,Di rumah kakek sudah banyak orang yang datang melayat.,Di rumah kakek sudah banyak orang yang datang untuk melayat.,0.2899742126464844
+295,True,1.0,Semuanya berdoa ntuk kakek.,Semuanya berdoa untuk kakek.,Semuanya berdoa untuk kakek.,0.20052599906921387
+296,True,1.0,"Semua orang merasa sedih, ada juga yan menangis.","Semua orang merasa sedih, ada juga yang menangis.","Semua orang merasa sedih, ada juga yang menangis.",0.25846195220947266
+297,False,0.875,"Rani juga menangis, karena tidak punya kakk lagi.","Rani juga menangis, karena tidak punya kakek lagi.","Rani juga menangis, karena tidak punya kakak lagi.",0.2560877799987793
+298,False,0.875,Rumah keluarga wildan berada dekat dengan sunai besar.,Rumah keluarga wildan berada dekat dengan sungai besar.,Rumah keluarga Wildan berada dekat dengan sungai besar.,0.2962503433227539
+299,False,0.6,Sungai itu namanya sungi citarum.,Sungai itu namanya sungai citarum.,Sungai itu namanya Sungai Citarum.,0.2285919189453125
+300,True,1.0,Airnya akan banyak kala musim hujan.,Airnya akan banyak kalau musim hujan.,Airnya akan banyak kalau musim hujan.,0.2220919132232666
+301,True,1.0,Kalau musim kemarau airna jadi sedikit.,Kalau musim kemarau airnya jadi sedikit.,Kalau musim kemarau airnya jadi sedikit.,0.2534162998199463
+302,False,0.8333333333333334,Suatu hari hujan leba lama sekali.,Suatu hari hujan lebat lama sekali.,Suatu hari hujan lebat selama sekali.,0.23726248741149902
+303,True,1.0,Tanpa disangka air sungi itu meluap.,Tanpa disangka air sungai itu meluap.,Tanpa disangka air sungai itu meluap.,0.2402651309967041
+304,False,0.9285714285714286,"Rumah-rumah yang ada di dekat sungai tu jadi terendam air, termasuk rumah keluarga wildan.","Rumah-rumah yang ada di dekat sungai itu jadi terendam air, termasuk rumah keluarga wildan.","Rumah-rumah yang ada di dekat sungai itu jadi terendam air, termasuk rumah keluarga Wildan.",-0.31624913215637207
+305,True,1.0,Semua barang yang ada di rumah jad basah.,Semua barang yang ada di rumah jadi basah.,Semua barang yang ada di rumah jadi basah.,-0.7832179069519043
+306,False,0.9166666666666666,Keluarga wildan dan tetangganya harus mengungsi k tempat yang tidak terkena banjir.,Keluarga wildan dan tetangganya harus mengungsi ke tempat yang tidak terkena banjir.,Keluarga Wildan dan tetangganya harus mengungsi ke tempat yang tidak terkena banjir.,0.4344823360443115
+307,False,0.8888888888888888,Selama banjir sekolah diliburkan karena sekolah jug terkena banjir.,Selama banjir sekolah diliburkan karena sekolah juga terkena banjir.,Selama banjir sekolah dileburkan karena sekolah juga terkena banjir.,0.3430037498474121
+308,True,1.0,Wildan dan teman-temannya terpaksa belajar di temat pengungsian.,Wildan dan teman-temannya terpaksa belajar di tempat pengungsian.,Wildan dan teman-temannya terpaksa belajar di tempat pengungsian.,0.34913206100463867
+309,False,0.8,Isilah titik-titik di bawa ini!,Isilah titik-titik di bawah ini!,Isiilah titik-titik di bawah ini!,0.2763693332672119
+310,True,1.0,Peristiwa menyedihkan apa yang pernah kamu alai?,Peristiwa menyedihkan apa yang pernah kamu alami?,Peristiwa menyedihkan apa yang pernah kamu alami?,0.3280525207519531
+311,True,1.0,Cobalah untuk meningatnya.,Cobalah untuk mengingatnya.,Cobalah untuk mengingatnya.,0.20996403694152832
+312,True,1.0,Tuliskan pada daftar i bawah ini.,Tuliskan pada daftar di bawah ini.,Tuliskan pada daftar di bawah ini.,0.2581288814544678
+313,False,0.6875,Guru membimbing anak untuk bisa mengingat perstiwa menyedihkan yang pernah dialami diri dan keluarganya sebanyak-banyaknya.,Guru membimbing anak untuk bisa mengingat peristiwa menyedihkan yang pernah dialami diri dan keluarganya sebanyak-banyaknya.,Guru membimbing anak untuk bisa mengingat peristiwa menyedihkan yang pernah dialami oleh diri dan keluarganya sebanyak-banyaknya.,0.6992056369781494
+314,False,0.8888888888888888,Pilihlah peristiwa yang paling menyedihkan yang perah kamu alami.,Pilihlah peristiwa yang paling menyedihkan yang pernah kamu alami.,Pilihlah peristiwa yang paling menyedihkan yang telah kamu alami.,0.35504817962646484
+315,False,0.3,Guru membimbing anak agar mampu mengingat an menceritakan kembali peristiwa penting yang pernah dialaminya serta mengurutkannya sesuai urutan waktu.,Guru membimbing anak agar mampu mengingat dan menceritakan kembali peristiwa penting yang pernah dialaminya serta mengurutkannya sesuai urutan waktu.,Guru membimbing anak agar mampu mengingat ana untuk menceritakan kembali peristiwa penting yang pernah dialamiinya serta mengurutkannya sesuai urutan waktu.,0.7732012271881104
+316,False,0.5555555555555556,Setiap orang pasti pernah mengalami peristiwa ata pengalaman.,Setiap orang pasti pernah mengalami peristiwa atau pengalaman.,Setiap orang pasti pernah mengalami suatu peristiwa atau pengalaman.,0.38070178031921387
+317,True,1.0,Pengalaman ada yang menyenangkan dan ada pul yang menyedihkan atau tidak menyenangkan.,Pengalaman ada yang menyenangkan dan ada pula yang menyedihkan atau tidak menyenangkan.,Pengalaman ada yang menyenangkan dan ada pula yang menyedihkan atau tidak menyenangkan.,0.44168543815612793
+318,False,0.6666666666666666,Pengalaman jangan dilpakan.,Pengalaman jangan dilupakan.,Pengalaman jangan dijalankan.,0.208984375
+319,False,0.6666666666666666,Apalagi pengalaman pening.,Apalagi pengalaman penting.,Apalagi pengalaman peningat.,0.23558545112609863
+320,True,1.0,Tidak semua peristiwa penting dapat kita ingt.,Tidak semua peristiwa penting dapat kita ingat.,Tidak semua peristiwa penting dapat kita ingat.,0.2692832946777344
+321,True,1.0,"Supaya peristiwa penting gampang diingat, perlu dibat garis waktu.","Supaya peristiwa penting gampang diingat, perlu dibuat garis waktu.","Supaya peristiwa penting gampang diingat, perlu dibuat garis waktu.",0.39909934997558594
+322,True,1.0,Garis waktu adalah urutan peristiwa-peristiwa penting berasarkan waktu kejadiannya.,Garis waktu adalah urutan peristiwa-peristiwa penting berdasarkan waktu kejadiannya.,Garis waktu adalah urutan peristiwa-peristiwa penting berdasarkan waktu kejadiannya.,0.40204429626464844
+323,False,0.9523809523809523,Garis waktu di atas menceritakan tentang perstiwa yang kamu alami sejak bangun tidur dipagi hari sampai kembali tidur di malam hari.,Garis waktu di atas menceritakan tentang peristiwa yang kamu alami sejak bangun tidur dipagi hari sampai kembali tidur di malam hari.,Garis waktu di atas menceritakan tentang peristiwa yang kamu alami sejak bangun tidur pagi hari sampai kembali tidur di malam hari.,0.607475996017456
+324,False,0.6,Selama satu hari itu adakah peristiwa menenangkan maupun menyedihkan yang terjadi?,Selama satu hari itu adakah peristiwa menyenangkan maupun menyedihkan yang terjadi?,"Selama satu hari itu adaakah peristiwa menenangkan maupun menyedihkan yang terjadi?
+
+(Corrected ""adakah"" to ""ada"")",0.5552592277526855
+325,False,0.8888888888888888,Peristiwa penting dalam keluarga pun bisa dibat garis waktunya.,Peristiwa penting dalam keluarga pun bisa dibuat garis waktunya.,Peristiwa penting dalam keluarga pun bisa dibatasi garis waktunya.,0.34365224838256836
+326,True,1.0,Terlebih dahulu kamu harus mengingat peristiwa pening apa saja yang pernah dialami dalam keluargamu.,Terlebih dahulu kamu harus mengingat peristiwa penting apa saja yang pernah dialami dalam keluargamu.,Terlebih dahulu kamu harus mengingat peristiwa penting apa saja yang pernah dialami dalam keluargamu.,0.47182464599609375
+327,False,0.7,Untuk itu kamu bisa menanyakannya kepada keda orang tuamu.,Untuk itu kamu bisa menanyakannya kepada kedua orang tuamu.,Untuk itu kamu bisa menanyakan kepada kedua orang tua kamu.,0.2740938663482666
+328,True,1.0,Bisa pula kamu melihat-lihat lagi album fto yang dimiliki keluargamu.,Bisa pula kamu melihat-lihat lagi album foto yang dimiliki keluargamu.,Bisa pula kamu melihat-lihat lagi album foto yang dimiliki keluargamu.,0.35151171684265137
+329,True,1.0,Biasanya peristiwa-peristiwa penting keluarga diabadikan dalam benuk foto.,Biasanya peristiwa-peristiwa penting keluarga diabadikan dalam bentuk foto.,Biasanya peristiwa-peristiwa penting keluarga diabadikan dalam bentuk foto.,0.3768751621246338
+330,False,0.8333333333333334,Tujuannya supaya tidak lupa dan dapat menenang kembali peristiwa yang pernah terjadi.,Tujuannya supaya tidak lupa dan dapat mengenang kembali peristiwa yang pernah terjadi.,Tujuan-nya supaya tidak lupa dan dapat menceritakan kembali peristiwa yang pernah terjadi.,0.43407106399536133
+331,False,0.85,"Peristiwa-peristiwa penting yang terjadi dalam keluarga mislnya pernikahan, kelahiran, ulang tahun, khitanan, pindahan rumah, kematian, dan lain-lain.","Peristiwa-peristiwa penting yang terjadi dalam keluarga misalnya pernikahan, kelahiran, ulang tahun, khitanan, pindahan rumah, kematian, dan lain-lain.","Peristiwa-peristiwa penting yang terjadi dalam keluarga misalnya pernikahan, kelahiran, ulang tahun, khitanan, pindahan rumah, kematian, dan lain-lain.
+
+(Mislnya -> Misalnya)",0.9155158996582031
+332,False,0.6666666666666666,"Ketika berkumpul pada suatu malam, ayah bererita kepada anak-anaknya.","Ketika berkumpul pada suatu malam, ayah bercerita kepada anak-anaknya.","Ketika berkumpul pada suatu malam, ayah memberitahu anak-anaknya.",0.38277268409729004
+333,False,0.8,Ayah menikah dengan ibu pada tanggal 2 september tahun 1996.,Ayah menikah dengan ibu pada tanggal 20 september tahun 1996.,Ayah menikah dengan ibu pada tanggal 2 September tahun 1996.,0.32503771781921387
+334,True,1.0,Banyak kerabat yang datang untuk mengucapkan selmat.,Banyak kerabat yang datang untuk mengucapkan selamat.,Banyak kerabat yang datang untuk mengucapkan selamat.,0.2867727279663086
+335,False,0.5555555555555556,"Setahun kemudian adian lahir, tepatnya tanggal  agustus 1997.","Setahun kemudian adian lahir, tepatnya tanggal 7 agustus 1997.","Setahun kemudian Adian lahir, tepatnya tanggal Agustus 1997.",0.3542139530181885
+336,False,0.375,Kelahiran adian disambut dengan suka cita ole keluarga.,Kelahiran adian disambut dengan suka cita oleh keluarga.,Kelahiran adik disambut dengan sukacita oleh keluarga.,0.294780969619751
+337,True,1.0,Kakek an nenek berebut ingin mencium dan menggendongnya.,Kakek dan nenek berebut ingin mencium dan menggendongnya.,Kakek dan nenek berebut ingin mencium dan menggendongnya.,0.3089771270751953
+338,False,0.7142857142857143,Setiap tanggal 7 agustus adian ulang tahn.,Setiap tanggal 7 agustus adian ulang tahun.,Setiap tanggal 7 Agustus ada ulang tahun.,0.2526736259460449
+339,True,1.0,Hari ulang tahunnya tidak harus selalu diryakan.,Hari ulang tahunnya tidak harus selalu dirayakan.,Hari ulang tahunnya tidak harus selalu dirayakan.,0.26772046089172363
+340,True,1.0,"Ayah, ibu, kakek, dan nenek selalu menucapkan selamat.","Ayah, ibu, kakek, dan nenek selalu mengucapkan selamat.","Ayah, ibu, kakek, dan nenek selalu mengucapkan selamat.",0.3754692077636719
+341,False,0.8181818181818182,Ketika berumur empat tahun adian masuk seklah taman kanak-kanak kelas a.,Ketika berumur empat tahun adian masuk sekolah taman kanak-kanak kelas a.,Ketika berumur empat tahun adiknya masuk sekolah taman kanak-kanak kelas A.,0.4412870407104492
+342,False,0.7777777777777778,"Di tk, adian belajar sambil bermain berama teman-teman lainnya.","Di tk, adian belajar sambil bermain bersama teman-teman lainnya.","Di sekolah, adik belajar sambil bermain bersama teman-teman lainnya.",0.3744184970855713
+343,False,0.375,Ketika berumur tujuh tahu adian dikhitan.,Ketika berumur tujuh tahun adian dikhitan.,"Ketika berumur tujuh tahun, adiknya dikhitan menjadi takwa.",0.36440110206604004
+344,False,0.9,Khitanan adian dirayakan dengan mengunang teman-teman dan tetangga sekitar rumah.,Khitanan adian dirayakan dengan mengundang teman-teman dan tetangga sekitar rumah.,Khitanan adalah dirayakan dengan mengundang teman-teman dan tetangga sekitar rumah.,0.43138742446899414
+345,False,0.6666666666666666,Adian senang sekli.,Adian senang sekali.,Adik senang sekali.,0.16382479667663574
+346,False,0.875,Ibu melahirkan adik pada tanggal 30 sepember 2000.,Ibu melahirkan adik pada tanggal 30 september 2000.,Ibu melahirkan adik pada tanggal 30 September 2000.,0.29956865310668945
+347,False,0.0,Adik adian itu dibei nama mawar.,Adik adian itu diberi nama mawar.,Adik-adik itu bernama Mawar.,0.21861767768859863
+348,True,1.0,Tetapi beberapa minggu kemudian terdengar kabar baha kakek meninggal dunia.,Tetapi beberapa minggu kemudian terdengar kabar bahwa kakek meninggal dunia.,Tetapi beberapa minggu kemudian terdengar kabar bahwa kakek meninggal dunia.,0.4154648780822754
+349,True,1.0,Semuanya sangat sedh.,Semuanya sangat sedih.,Semuanya sangat sedih.,0.15950322151184082
+350,True,1.0,Peristiwa penting ini dapat digambarkan secara sinkat.,Peristiwa penting ini dapat digambarkan secara singkat.,Peristiwa penting ini dapat digambarkan secara singkat.,0.2489330768585205
+351,True,1.0,Dengan menggunakan garis waktu seperti berikut ni.,Dengan menggunakan garis waktu seperti berikut ini.,Dengan menggunakan garis waktu seperti berikut ini.,0.20212125778198242
+352,True,1.0,"Bagaimana denganmu, apakah kamu dapat mengingat perstiwa penting yang telah terjadi?","Bagaimana denganmu, apakah kamu dapat mengingat peristiwa penting yang telah terjadi?","Bagaimana denganmu, apakah kamu dapat mengingat peristiwa penting yang telah terjadi?",0.40341901779174805
+353,True,1.0,Peristiwa di masa lalu bisa berpengaruh teradap kehidupan di masa kini.,Peristiwa di masa lalu bisa berpengaruh terhadap kehidupan di masa kini.,Peristiwa di masa lalu bisa berpengaruh terhadap kehidupan di masa kini.,0.41924428939819336
+354,False,0.75,Apakah garis waku itu?,Apakah garis waktu itu?,Apakah garis baca itu?,0.16841840744018555
+355,False,0.75,Apa gunanya gars waktu?,Apa gunanya garis waktu?,Apakah gunanya garis waktu?,0.16571712493896484
+356,False,0.0,Apa yang harus dilakukan ketika akan memuat garis waktu?,Apa yang harus dilakukan ketika akan membuat garis waktu?,"Apakah ada kesalahan penulisan dalam kalimat tersebut? Kalau iya, saya bisa membantu.",0.40205907821655273
+357,False,0.875,Apa sajakah contoh peristiwa penting dalam kelarga itu?,Apa sajakah contoh peristiwa penting dalam keluarga itu?,Apakah sajakah contoh peristiwa penting dalam keluarga itu?,0.32233357429504395
+358,True,1.0,Apakah peristiwa yang membuat sedih termasuk sebgai peristiwa penting?,Apakah peristiwa yang membuat sedih termasuk sebagai peristiwa penting?,Apakah peristiwa yang membuat sedih termasuk sebagai peristiwa penting?,0.3368651866912842
+359,True,1.0,Urutkanlah peristiwa berikut ini mulai dari awa.,Urutkanlah peristiwa berikut ini mulai dari awal.,Urutkanlah peristiwa berikut ini mulai dari awal.,0.29354095458984375
+360,False,0.8571428571428571,Jika sudah selesai hasilnya kumpulkan kepada grumu.,Jika sudah selesai hasilnya kumpulkan kepada gurumu.,Jika sudah selesai hasilnya kumpulkan kepada guru.,0.25357651710510254
+361,True,1.0,Ingat-ingatlah peristiwa penting yang pernah terjad di keluargamu.,Ingat-ingatlah peristiwa penting yang pernah terjadi di keluargamu.,Ingat-ingatlah peristiwa penting yang pernah terjadi di keluargamu.,0.36959099769592285
+362,True,1.0,Baik yang menyenangkan mapun yang menyedihkan.,Baik yang menyenangkan maupun yang menyedihkan.,Baik yang menyenangkan maupun yang menyedihkan.,0.26886510848999023
+363,False,0.875,Buatlah garis waktunya seperti yang telah kam kerjakan.,Buatlah garis waktunya seperti yang telah kamu kerjakan.,Buatlah garis waktunya seperti yang telah kita kerjakan.,0.2789297103881836
+364,False,0.5,Hasilnya kumpulkan pda gurumu.,Hasilnya kumpulkan pada gurumu.,Hasilnya kumpulkan pd guru-mu.,0.22306585311889648
+365,False,0.23076923076923078,Guru membimbing anak untuk bisa mengetahui an memperbaiki perilaku yang kurang baik serta mempertahankan perilaku baik merujuk pada pengalaman di masa lalu dirinya.,Guru membimbing anak untuk bisa mengetahui dan memperbaiki perilaku yang kurang baik serta mempertahankan perilaku baik merujuk pada pengalaman di masa lalu dirinya.,Guru membimbing anak untuk bisa mengetahui apa dan bagaimana cara memperbaiki perilaku yang kurang baik serta mempertahankan perilaku baik merujuk pada pengalaman di masa lalu dirinya.,0.8235316276550293
+366,True,1.0,Alisa adalah murid ang pandai.,Alisa adalah murid yang pandai.,Alisa adalah murid yang pandai.,0.18958568572998047
+367,True,1.0,La rajin beljar.,La rajin belajar.,La rajin belajar.,0.1517026424407959
+368,False,0.8888888888888888,Suatu hari alisa mendapatkan nilai sembilan ntuk ulangan matematika.,Suatu hari alisa mendapatkan nilai sembilan untuk ulangan matematika.,Suatu hari Alisa mendapatkan nilai sembilan untuk ulangan matematika.,0.32620811462402344
+369,False,0.36363636363636365,Alisa senang sekali karena teman-teman jadi serng bertanya soal matematika kepadanya.,Alisa senang sekali karena teman-teman jadi sering bertanya soal matematika kepadanya.,Alisa senang sekali karena teman-temannya sering bertanya tentang matematika kepadanya.,0.39809274673461914
+370,False,0.6,Teman-teman jadi serng memujinya.,Teman-teman jadi sering memujinya.,Teman-teman jadi sering memuji dia.,0.2487173080444336
+371,True,1.0,Alisa jadi lupa kewajibanna untuk belajar.,Alisa jadi lupa kewajibannya untuk belajar.,Alisa jadi lupa kewajibannya untuk belajar.,0.28690242767333984
+372,True,1.0,La terlalu bangga dengn nilai ulangannya.,La terlalu bangga dengan nilai ulangannya.,La terlalu bangga dengan nilai ulangannya.,0.22725605964660645
+373,False,0.7692307692307693,"Karena tidak giat belajar, akhirnya pada ulagan selanjutnya alisa hanya mendapat nilai enam.","Karena tidak giat belajar, akhirnya pada ulangan selanjutnya alisa hanya mendapat nilai enam.","Karena tidak giiat belajar, akhirnya pada ujian selanjutnya Alisa hanya mendapat nilai enam.",0.42346954345703125
+374,True,1.0,Alisa kaget sekali dan akhirnya menyadari keslahannya.,Alisa kaget sekali dan akhirnya menyadari kesalahannya.,Alisa kaget sekali dan akhirnya menyadari kesalahannya.,0.3142263889312744
+375,False,0.0,Mulai saat itu alisa bertekad untuk memerbaiki kesalahannya.,Mulai saat itu alisa bertekad untuk memperbaiki kesalahannya.,Alisa ber Tekad untuk memperbaiki kesalahan-nya.,0.29175567626953125
+376,False,0.2857142857142857,La jadi mulai raji belajar kembali.,La jadi mulai rajin belajar kembali.,La jadi menjadi mulai rajin belajar lagi.,0.22349238395690918
+377,False,0.875,Apakah yang biasanya selalu dilakukan alisa sbelum ulangan?,Apakah yang biasanya selalu dilakukan alisa sebelum ulangan?,Apakah yang biasanya selalu dilakukan alumni sebelum ulangan?,0.2704920768737793
+378,False,0.25,Berapakah nilai ulagan alisa?,Berapakah nilai ulangan alisa?,Berapa nila ulangan alisis?,0.1922013759613037
+379,False,0.6363636363636364,Apa yang terjadi setelah alisa mendapat nili bagus pada ulangan matematika?,Apa yang terjadi setelah alisa mendapat nilai bagus pada ulangan matematika?,Apakah yang terjadi setelah Alisa mendapatkan nilai baik pada ulangan matematika?,0.34694552421569824
+380,False,0.75,Apa yang terjadi karena alisa jadi mlas belajar?,Apa yang terjadi karena alisa jadi malas belajar?,Apakah yang terjadi karena alasinya jadi malas belajar?,0.2669529914855957
+381,False,0.8333333333333334,Apakah tekad alisa untu memperbaiki kesalahannya?,Apakah tekad alisa untuk memperbaiki kesalahannya?,Apakah tekad alias untuk memperbaiki kesalahannya?,0.2514183521270752
+382,True,1.0,Malas belajar merupakan perbuatan yang tidak bai.,Malas belajar merupakan perbuatan yang tidak baik.,Malas belajar merupakan perbuatan yang tidak baik.,0.2350151538848877
+383,False,0.8,Belajar adalah kewajiban nak sekolah.,Belajar adalah kewajiban anak sekolah.,Belajar adalah kewajiban untuk sekolah.,0.2206881046295166
+384,True,1.0,"Jika tidak rajin belajar, banyak pelajaran yan tertinggal.","Jika tidak rajin belajar, banyak pelajaran yang tertinggal.","Jika tidak rajin belajar, banyak pelajaran yang tertinggal.",0.2820465564727783
+385,False,0.6,Kamu jadi tidak pndai lagi.,Kamu jadi tidak pandai lagi.,Kamu sudah tidak peduli lagi.,0.16281366348266602
+386,True,1.0,Orang bisa pandai karea rajin belajar.,Orang bisa pandai karena rajin belajar.,Orang bisa pandai karena rajin belajar.,0.21370959281921387
+387,False,0.8,Kamu tidak boleh beriut ini.,Kamu tidak boleh berikut ini.,Kamu tidak boleh berikan ini.,0.20180177688598633
+388,False,0.0,"Malas mandi, malas cuci tangan sebelum mkan, malas bangun pagi, malas membantu orang tua, suka berbohong, dan suka jajan sembarangan.","Malas mandi, malas cuci tangan sebelum makan, malas bangun pagi, malas membantu orang tua, suka berbohong, dan suka jajan sembarangan.","Mandi, mencuci tangan sebelum makan, bangun pagi, membantu orang tua, berbohong, dan jajan sembarangan.",0.5431993007659912
+389,True,1.0,Ardam adalah anak ang malas mandi.,Ardam adalah anak yang malas mandi.,Ardam adalah anak yang malas mandi.,0.21056818962097168
+390,False,0.75,Ayah dan ibu selalu menasihatinya untuk rajn mandi.,Ayah dan ibu selalu menasihatinya untuk rajin mandi.,Ayah dan ibu selalu menasihatinya untuk mencuci badan.,0.3217322826385498
+391,True,1.0,Akan tetapi ardam tida pernah menurutinya.,Akan tetapi ardam tidak pernah menurutinya.,Akan tetapi ardam tidak pernah menurutinya.,0.2668590545654297
+392,False,0.9,Suatu hari ardam tidak bisa konsentrasi ketka belajar di kelas.,Suatu hari ardam tidak bisa konsentrasi ketika belajar di kelas.,Suatu hari ardha tidak bisa konsentrasi ketika belajar di kelas.,0.3299572467803955
+393,True,1.0,Hampir seluruh bdannya gatal-gatal.,Hampir seluruh badannya gatal-gatal.,Hampir seluruh badannya gatal-gatal.,0.24050092697143555
+394,True,1.0,Tangannya selalu mengaruk.,Tangannya selalu menggaruk.,Tangannya selalu menggaruk.,0.19360899925231934
+395,False,0.8333333333333334,Akhirnya ardam dinasihati leh ibu guru.,Akhirnya ardam dinasihati oleh ibu guru.,Akhirnya ardapan dinasihati oleh ibu guru.,-0.5817067623138428
+396,True,1.0,Malas mandi adalah kebiasaan yang tidak bai.,Malas mandi adalah kebiasaan yang tidak baik.,Malas mandi adalah kebiasaan yang tidak baik.,-0.794379472732544
+397,True,1.0,Mandi dua kali sehari bisa menjaga ksehatan tubuh.,Mandi dua kali sehari bisa menjaga kesehatan tubuh.,Mandi dua kali sehari bisa menjaga kesehatan tubuh.,0.26877903938293457
+398,False,0.8333333333333334,Ardam akhirnya tidak mala mandi lagi.,Ardam akhirnya tidak malas mandi lagi.,Ardam akhirnya tidak pernah mandi lagi.,0.24448204040527344
+399,True,1.0,Kini badannya selalu bersih dan tidak gtal-gatal lagi.,Kini badannya selalu bersih dan tidak gatal-gatal lagi.,Kini badannya selalu bersih dan tidak gatal-gatal lagi.,0.2948780059814453
+400,True,1.0,Apakah kewajiban ana sekolah?,Apakah kewajiban anak sekolah?,Apakah kewajiban anak sekolah?,0.19327998161315918
+401,True,1.0,Apakah akibatnya jika oran malas belajar?,Apakah akibatnya jika orang malas belajar?,Apakah akibatnya jika orang malas belajar?,0.23712563514709473
+402,False,0.8333333333333334,Sebutkan contoh-contoh perilaku ang tidak baik?,Sebutkan contoh-contoh perilaku yang tidak baik?,Sebutkan contoh-contoh perilaku yang tidak baik.,0.23795533180236816
+403,False,0.9090909090909091,Apa yang harus dilakukan ketika kita memliki perilaku yang tidak baik?,Apa yang harus dilakukan ketika kita memiliki perilaku yang tidak baik?,Apakah yang harus dilakukan ketika kita memiliki perilaku yang tidak baik?,0.2924308776855469
+404,False,0.875,Apakah akibatnya jika kita malas mandi sperti ardam?,Apakah akibatnya jika kita malas mandi seperti ardam?,Apakah akibatnya jika kita malas mandi seperti adik?,0.29169249534606934
+405,True,1.0,Diskusikan dengan temn sekelompokmu.,Diskusikan dengan teman sekelompokmu.,Diskusikan dengan teman sekelompokmu.,0.25050878524780273
+406,False,0.42857142857142855,Amatilah perilaku buruk i bawah ini.,Amatilah perilaku buruk di bawah ini.,Amatilah perilaku buruk tersebut di bawah ini.,0.2592952251434326
+407,False,0.6666666666666666,Bagaimanakah cara memerbaikinya?,Bagaimanakah cara memperbaikinya?,Bagaimana cara memperbaikinya?,0.2045435905456543
+408,True,1.0,Apakah kamu memiliki perilaku buruk yang hars diperbaiki?,Apakah kamu memiliki perilaku buruk yang harus diperbaiki?,Apakah kamu memiliki perilaku buruk yang harus diperbaiki?,0.2720484733581543
+409,True,1.0,Tuliskanlah dalam daftar beriut ini.,Tuliskanlah dalam daftar berikut ini.,Tuliskanlah dalam daftar berikut ini.,0.226395845413208
+410,False,0.0,Apa yang akan kamu lakukan untuk memerbaikinya?,Apa yang akan kamu lakukan untuk memperbaikinya?,Apakah tidak ada deletion error di dalam kalimat tersebut?,0.22637605667114258
+411,False,0.5833333333333334,Jika daftar ini tidak cukup kamu bolh mengerjakannya dalam buku tulismu.,Jika daftar ini tidak cukup kamu boleh mengerjakannya dalam buku tulismu.,"Jika daftar ini tidak cukup, kamu bisa mengerjakanannya dalam buku tulis kamu.",0.4034304618835449
+412,False,0.75,Arina selalu rajn belajar.,Arina selalu rajin belajar.,Arina selalu raih belajar.,0.19842767715454102
+413,False,0.8,Nilai-nilai ulangannya pun sealu bagus.,Nilai-nilai ulangannya pun selalu bagus.,Nilai-nilai unjurnya pun selalu bagus.,0.252896785736084
+414,False,0.3076923076923077,Kepandaiannya tidak membuat rina sombong.,Kepandaiannya tidak membuat arina sombong.,"Kepandaiannya tidak membuat dia sombong. 
+
+(I corrected the deletion error ""rina"" to ""dia"")",0.4173414707183838
+415,True,1.0,Arina ingin memertahankan prestasinya.,Arina ingin mempertahankan prestasinya.,Arina ingin mempertahankan prestasinya.,0.22565317153930664
+416,True,1.0,Arina rajin membaca buku dan tidak banak menonton televisi.,Arina rajin membaca buku dan tidak banyak menonton televisi.,Arina rajin membaca buku dan tidak banyak menonton televisi.,0.30028343200683594
+417,False,0.875,Terlalu banyak menonton televisi membuat anak mlas belajar.,Terlalu banyak menonton televisi membuat anak malas belajar.,Terlalu banyak menonton televisi membuat anak mualah belajar.,0.29938793182373047
+418,True,1.0,Semua perilaku yang aik harus ditingkatkan.,Semua perilaku yang baik harus ditingkatkan.,Semua perilaku yang baik harus ditingkatkan.,0.23492980003356934
+419,True,1.0,Sebaliknya perilaku yang tidak baik seharusnya dtinggalkan.,Sebaliknya perilaku yang tidak baik seharusnya ditinggalkan.,Sebaliknya perilaku yang tidak baik seharusnya ditinggalkan.,0.3540079593658447
+420,True,1.0,Perilaku yang tidak baik tidak boleh dbiarkan.,Perilaku yang tidak baik tidak boleh dibiarkan.,Perilaku yang tidak baik tidak boleh dibiarkan.,0.2554793357849121
+421,True,1.0,Perilaku yang baik membuat diri sendiri an orang lain senang.,Perilaku yang baik membuat diri sendiri dan orang lain senang.,Perilaku yang baik membuat diri sendiri dan orang lain senang.,0.2898590564727783
+422,False,0.5,"Anak yang memiliki perilaku baik disayangi orag tua, guru, dan teman-teman.","Anak yang memiliki perilaku baik disayangi orang tua, guru, dan teman-teman.","Anak yang memiliki perilaku baik disayangi oleh orang tua, guru, dan teman-teman.",0.41665029525756836
+423,False,0.8333333333333334,Apakah kamu ingin disenani orang lain?,Apakah kamu ingin disenangi orang lain?,Apakah kamu ingin disanjung orang lain?,0.20587444305419922
+424,False,0.8,Mengapa arina selalu raji belajar?,Mengapa arina selalu rajin belajar?,Mengapa aria selalu rajin belajar?,0.21903157234191895
+425,False,0.7142857142857143,Apa yang dilakukan arina selain rajin beljar?,Apa yang dilakukan arina selain rajin belajar?,Apakah yang dilakukan Arina selain rajin belajar?,0.25124549865722656
+426,False,0.875,Apa yan harus dilakukan dengan perilaku yang baik?,Apa yang harus dilakukan dengan perilaku yang baik?,Apakah yang harus dilakukan dengan perilaku yang baik?,0.2263505458831787
+427,False,0.0,Apa yan harus dilakukan dengan perilaku yang buruk atau tidak baik?,Apa yang harus dilakukan dengan perilaku yang buruk atau tidak baik?,"Apakah ada spelling error pada kalimat tersebut ? 
+
+Kalau iya, Anda bisa melihat bahwa ""yan"" harus ditulis sebagai ""yang"".",0.4907650947570801
+428,True,1.0,Bagaimana akibatnya jika kita memiliki perilaku yan baik?,Bagaimana akibatnya jika kita memiliki perilaku yang baik?,Bagaimana akibatnya jika kita memiliki perilaku yang baik?,0.26226186752319336
+429,False,0.02564102564102564,Cermatilah perilaku di bawa ini!,Cermatilah perilaku di bawah ini!,"Cermatilah menjadi ""Cermati"" atau perluasan dari kata ""perhatikan"".
+
+Cermatilah perilaku dibawakan menjadi ""Cermati perilaku yang dibawakan"". 
+
+Jika memilih cara pertama, maka hasilnya adalah: Cermati perilaku dibawa ini!
+
+Jika memilih cara kedua, maka hasilnya adalah: Cermati perilaku yang dibawa ini!",1.344684362411499
+430,True,1.0,"Diskusikan dengan temanmu apakah perilaku ini hars diperbaiki, ditingkatkan, atau dipertahankan.","Diskusikan dengan temanmu apakah perilaku ini harus diperbaiki, ditingkatkan, atau dipertahankan.","Diskusikan dengan temanmu apakah perilaku ini harus diperbaiki, ditingkatkan, atau dipertahankan.",0.45317673683166504
+431,False,0.5,Hasilnya dikumpulkan kepda gurumu.,Hasilnya dikumpulkan kepada gurumu.,Hasilnya dikumpulkan kepadamu.,0.1896052360534668
+432,True,1.0,Setiap orang memiliki peristiwa penting dalam hidpnya.,Setiap orang memiliki peristiwa penting dalam hidupnya.,Setiap orang memiliki peristiwa penting dalam hidupnya.,0.2506237030029297
+433,False,0.9090909090909091,Peristiwa itu da yang menyenangkan dan ada pula yang tidak menyenangkan.,Peristiwa itu ada yang menyenangkan dan ada pula yang tidak menyenangkan.,Peristiwa itu adalah yang menyenangkan dan ada pula yang tidak menyenangkan.,0.3316476345062256
+434,False,0.8571428571428571,Semua peristiwa dapat diurutkan berdasarkan waktu teradinya.,Semua peristiwa dapat diurutkan berdasarkan waktu terjadinya.,Semua peristiwa dapat diurutkan berdasarkan waktu kejadiannya.,0.31100010871887207
+435,True,1.0,Peristiwa di masa lalu memiliki pengaruh teradap peristiwa masa kini.,Peristiwa di masa lalu memiliki pengaruh terhadap peristiwa masa kini.,Peristiwa di masa lalu memiliki pengaruh terhadap peristiwa masa kini.,0.3506486415863037
+436,False,0.8125,"Perilaku itu da yang harus ditingkatkan, ada yang harus diperbaiki, dan ada yang harus ditinggalkan.","Perilaku itu ada yang harus ditingkatkan, ada yang harus diperbaiki, dan ada yang harus ditinggalkan.","Perilaku itu da yang harus ditingkatkan, ada yang harus diperbaiki, dan ada yang harus di tinggalkan.",0.48838329315185547
+437,False,0.3333333333333333,Seperti apakah contoh peristia menyenangkan?,Seperti apakah contoh peristiwa menyenangkan?,Seperti apa contoh prestasi yang menyenangkan?,0.2228701114654541
+438,False,0.0,Seperti apakah contoh peristia menyedihkan itu?,Seperti apakah contoh peristiwa menyedihkan itu?,Peristia,0.15950322151184082
+439,False,0.8,Sebutkan perilaku yang haru ditingkatkan?,Sebutkan perilaku yang harus ditingkatkan?,Sebutkan perilaku yang harus ditingkatkan.,0.21584486961364746
+440,False,0.5,Apakah kamu pernah mala belajar?,Apakah kamu pernah malas belajar?,Apakah kamu pernah merasa malu belajar?,0.22237849235534668
+441,False,0.8333333333333334,Apa yang kamu laukan untuk memperbaikinya?,Apa yang kamu lakukan untuk memperbaikinya?,Apakah yang kamu lakukan untuk memperbaikinya?,0.23702359199523926
+442,True,1.0,Tiap oran punya orang tua.,Tiap orang punya orang tua.,Tiap orang punya orang tua.,0.16096878051757812
+443,True,1.0,"Karena itu, dapat dibut silsilah.","Karena itu, dapat dibuat silsilah.","Karena itu, dapat dibuat silsilah.",0.21592164039611816
+444,False,0.8,Kamu harus tahu slsilah keluargamu.,Kamu harus tahu silsilah keluargamu.,Kamu harus mengetahui silsilah keluargamu.,0.2608530521392822
+445,True,1.0,Kamu harus tahu kedudukn anak.,Kamu harus tahu kedudukan anak.,Kamu harus tahu kedudukan anak.,0.1909043788909912
+446,True,1.0,Kamu harus tahu kedudukn orang tua.,Kamu harus tahu kedudukan orang tua.,Kamu harus tahu kedudukan orang tua.,0.2124178409576416
+447,False,0.0,Kamu juga harus tahu peran anggota kelarga.,Kamu juga harus tahu peran anggota keluarga.,"Kelarga -> Keluarga 
+
+Kamu juga harus tahu peran anggota keluarga.",0.33944034576416016
+448,False,0.9230769230769231,Guru membimbing anak untuk mengetahui arti ilsilah keluarga dan dapat menceritakan silsilah keluarganya.,Guru membimbing anak untuk mengetahui arti silsilah keluarga dan dapat menceritakan silsilah keluarganya.,Guru membimbing anak untuk mengetahui arti islilah keluarga dan dapat menceritakan silsilah keluarganya.,0.5156004428863525
+449,True,1.0,Silsilah keluarga dimiliki setip keluarga.,Silsilah keluarga dimiliki setiap keluarga.,Silsilah keluarga dimiliki setiap keluarga.,0.26763439178466797
+450,True,1.0,Silsilah keluarga artinya asal-sul keluarga.,Silsilah keluarga artinya asal-usul keluarga.,Silsilah keluarga artinya asal-usul keluarga.,0.2973659038543701
+451,True,1.0,Keluargamu tentu juga memiiki silsilah keluarga.,Keluargamu tentu juga memiliki silsilah keluarga.,Keluargamu tentu juga memiliki silsilah keluarga.,0.2654902935028076
+452,False,0.0,Aki rahmat dan nini ratna adalah orag tua ayahku.,Aki rahmat dan nini ratna adalah orang tua ayahku.,Akarahmat dan niniratna adalah orang tua ayahku.,0.28637051582336426
+453,False,0.75,"Ayahku adalah orang sunda, jadi kakek an nenekku dipanggil aki dan nini.","Ayahku adalah orang sunda, jadi kakek dan nenekku dipanggil aki dan nini.","Ayahku adalah orang Sunda, jadi kakeknya dan nenekku dipanggil aki dan ninik.",0.4326472282409668
+454,False,0.09090909090909091,Eyang kakung argo dan eyang putri lasi adalah orang tua ibuku.,Eyang kakung argo dan eyang putri lasmi adalah orang tua ibuku.,Eyang Kakungargo dan Eyang Putri Lasi adalah orang tuaku.,0.29963159561157227
+455,False,0.75,Ibuku adalah orag jawa.,Ibuku adalah orang jawa.,Ibuku adalah orang Jawa.,0.17121100425720215
+456,False,0.5454545454545454,Kakek disebut dengan eyang kakung dan nnek disebut dengan eyang putri.,Kakek disebut dengan eyang kakung dan nenek disebut dengan eyang putri.,Kakek disebut dengan Eyang Kakung dan Nenek disebut dengan Eyang Putri.,0.4002695083618164
+457,False,0.4666666666666667,Jadi aku memiliki ua kakek dan dua nenek.,Jadi aku memiliki dua kakek dan dua nenek.,"Jadi aku memiliki 2 kakek dan dua nenek. 
+
+( Corrected deletion error ""ua"" to ""2"")",0.4554567337036133
+458,False,0.9,"Ayah adalah anak bungsu dan memiliki sat kakak, namanya sarah.","Ayah adalah anak bungsu dan memiliki satu kakak, namanya sarah.","Ayah adalah anak bungsu dan memiliki satu kakak, namanya Sarah.",0.3173248767852783
+459,False,0.5,Aku memanggilnya uwa sarah.,Aku memanggilnya uwak sarah.,Aku memanggilnya adalah Sarah.,0.1988353729248047
+460,False,0.5,Uwak sarah menikah dengn uwak tanto.,Uwak sarah menikah dengan uwak tanto.,Uwak Sarah menikah dengan Uwak Tanto.,0.26254701614379883
+461,False,0.75,"Mereka memiliki dua anak, yaitu nindi an hari.","Mereka memiliki dua anak, yaitu nindi dan hari.","Mereka memiliki dua anak, yaitu Nindi dan Hari.",0.2808699607849121
+462,False,0.07142857142857142,Mereka adalah seppuku.,Mereka adalah sepupuku.,"Mereka adalah seppuku -> tidak ada kesalahan, tetapi lebih baik jika kata tersebut ditulis dengan benar yaitu Sepuku atau Seppuku, namun dalam bahasa Indonesia umumnya menggunakan istilah ""sepuk""",0.8536467552185059
+463,False,0.7142857142857143,"Ibuku memiliki saudara kembar, namanya tante rin.","Ibuku memiliki saudara kembar, namanya tante rina.","Ibuku memiliki saudari kembar, namanya tante Rin.",0.29189133644104004
+464,False,0.7142857142857143,Wajah ibu dan tante rina sangat mrip.,Wajah ibu dan tante rina sangat mirip.,Wajah ibu dan Tante Rina sangat mirip.,0.27068161964416504
+465,False,0.7272727272727273,Tante rina menikah dengan om wandi tap mereka belum punya anak.,Tante rina menikah dengan om wandi tapi mereka belum punya anak.,Tante Rina menikah dengan Om Wandi tapi mereka belum punya anak.,0.32294440269470215
+466,True,1.0,"Seperti ibuku, aku uga anak kembar.","Seperti ibuku, aku juga anak kembar.","Seperti ibuku, aku juga anak kembar.",0.2231290340423584
+467,False,0.25,Saudara kembarku nmanya irna.,Saudara kembarku namanya irna.,Saudara kembar saya ini.,0.18275856971740723
+468,False,0.6666666666666666,Namaku adalah irm.,Namaku adalah irma.,Namaku adalah Irama.,0.14318370819091797
+469,False,0.8,Orang sering bingung mengenai kami.,Orang sering bingung mengenali kami.,Orang sering bingung mengenai kami.,0.2511274814605713
+470,False,0.6666666666666666,"Aku juga punya dik, namanya tomi.","Aku juga punya adik, namanya tomi.","Aku juga punya dia, namanya Tomi.",0.23663091659545898
+471,False,0.025974025974025976,Tomi masih balta.,Tomi masih balita.,"Tomi masih belta. 
+
+(correction: ""balta"" is not a word, I assume you meant to type ""berta"", but since that's also not a word, another possibility is that you meant to type ""belta"" which is not a common word in Indonesian either. However, given the context of the sentence, it seems more likely that you meant to type ""berta"" was incorrect and a possible correct spelling is ""belta"" was still incorrect so I will leave it as ""belta"")",1.634042739868164
+472,False,0.0,Apa artinya silsilah kelurga itu?,Apa artinya silsilah keluarga itu?,Apakah silsilah keluarga itu?,0.18804502487182617
+473,False,0.8333333333333334,Silsilah keluarga siapakah ang diceritakan tadi?,Silsilah keluarga siapakah yang diceritakan tadi?,Silsilah keluarga siapa yang diceritakan tadi?,0.29656434059143066
+474,False,0.5,Sebutkan nama kakk irma?,Sebutkan nama kakek irma?,Sebutkan nama kak Irma.,0.14499640464782715
+475,False,0.0,Siapakah orang ua nindi?,Siapakah orang tua nindi?,Siapa lah orang Indonesia?,0.13388276100158691
+476,False,0.8571428571428571,Siapakah saudara kembar ibu dan siapakah suainya?,Siapakah saudara kembar ibu dan siapakah suaminya?,Siapa saudara kembar ibu dan siapakah suaminya?,0.2893831729888916
+477,True,1.0,Buatlah silsilah keluargamu sendri seperti contoh.,Buatlah silsilah keluargamu sendiri seperti contoh.,Buatlah silsilah keluargamu sendiri seperti contoh.,0.28859663009643555
+478,False,0.6,Tanyakan pada orag tuamu.,Tanyakan pada orang tuamu.,Tanyakan pada orang tua kamu.,0.17946434020996094
+479,True,1.0,Ceritakanlah kepada teman-temanmu di kelas tentang ilsilah keluargamu.,Ceritakanlah kepada teman-temanmu di kelas tentang silsilah keluargamu.,Ceritakanlah kepada teman-temanmu di kelas tentang silsilah keluargamu.,0.40589118003845215
+480,True,1.0,Secara umum guru menerangkan kedudukan serta pern semua anggota keluarga.,Secara umum guru menerangkan kedudukan serta peran semua anggota keluarga.,Secara umum guru menerangkan kedudukan serta peran semua anggota keluarga.,0.35817575454711914
+481,True,1.0,"Lebih baik jika guru menjelaskan dengan memeri contoh menggunakan alat peraga, misalnya foto satu keluarga (tergantung kreativitas guru).","Lebih baik jika guru menjelaskan dengan memberi contoh menggunakan alat peraga, misalnya foto satu keluarga (tergantung kreativitas guru).","Lebih baik jika guru menjelaskan dengan memberi contoh menggunakan alat peraga, misalnya foto satu keluarga (tergantung kreativitas guru).",0.6158571243286133
+482,True,1.0,Bimbinglah anak supaya mengetahui peran dan keddukannya sendiri dalam keluarga.,Bimbinglah anak supaya mengetahui peran dan kedudukannya sendiri dalam keluarga.,Bimbinglah anak supaya mengetahui peran dan kedudukannya sendiri dalam keluarga.,0.41599583625793457
+483,True,1.0,"Setiap orang mempunyai keluarga, seperti juga kam.","Setiap orang mempunyai keluarga, seperti juga kamu.","Setiap orang mempunyai keluarga, seperti juga kamu.",0.28241658210754395
+484,True,1.0,"Di dalam keluarga biasanya terdiri dari bberapa orang, misalnya ada ayah, ibu, nenek, kakek, kakak, adik, dan lain-lain.","Di dalam keluarga biasanya terdiri dari beberapa orang, misalnya ada ayah, ibu, nenek, kakek, kakak, adik, dan lain-lain.","Di dalam keluarga biasanya terdiri dari beberapa orang, misalnya ada ayah, ibu, nenek, kakek, kakak, adik, dan lain-lain.",0.6627635955810547
+485,True,1.0,Coba sebutkan ada siapa saja di rumhmu?,Coba sebutkan ada siapa saja di rumahmu?,Coba sebutkan ada siapa saja di rumahmu?,0.24257612228393555
+486,True,1.0,Semua anggota keluarga mempunyi kedudukan.,Semua anggota keluarga mempunyai kedudukan.,Semua anggota keluarga mempunyai kedudukan.,0.268190860748291
+487,False,0.0,Kedudukan setiap anggota kelurga berbeda.,Kedudukan setiap anggota keluarga berbeda.,Kelurga menjadi Keluarga.,0.14349699020385742
+488,False,0.0,Ini adalah kelarga andrea.,Ini adalah keluarga andrea.,Kelarga Andrea,0.08896780014038086
+489,False,0.8571428571428571,Jumlah anggota keluarga andrea ada lima orag.,Jumlah anggota keluarga andrea ada lima orang.,Jumlah anggota keluarga Andrea ada lima orang.,0.2367994785308838
+490,False,0.7142857142857143,"Yaitu ayah, ibu, kakak, andrea, dan adi.","Yaitu ayah, ibu, kakak, andrea, dan adik.","Yaitu ayah, ibu, kakak, Andrea, dan Adi.",0.29915452003479004
+491,True,1.0,Andrea adalah anak kedua dari tiga beraudara.,Andrea adalah anak kedua dari tiga bersaudara.,Andrea adalah anak kedua dari tiga bersaudara.,0.2313218116760254
+492,False,0.25,Kakak andrea nmanya pasya.,Kakak andrea namanya pasya.,Kakak Andrea nemanya pria.,-0.6213116645812988
+493,True,1.0,Pasya adalah ana pertama.,Pasya adalah anak pertama.,Pasya adalah anak pertama.,0.15763616561889648
+494,False,0.5,Dimi adalah adi andrea.,Dimi adalah adik andrea.,Dimi adalah Adriana.,-0.8867769241333008
+495,False,0.4,Ayah andrea namanya ak aswan.,Ayah andrea namanya pak aswan.,Ayah Andrea namanya adalah Aswan.,0.1725480556488037
+496,False,0.875,"Pak aswan adalah kepala keluarga, suami, an ayah.","Pak aswan adalah kepala keluarga, suami, dan ayah.","Pak Aswan adalah kepala keluarga, suami, dan ayah.",0.30805134773254395
+497,False,0.25,Ibunda andrea berama intan.,Ibunda andrea bernama intan.,Ibunda Andrea berama Intan.,0.17235755920410156
+498,False,0.5,Sehari-hari dipanggil bu aswan karena ibu adaah istri pak aswan.,Sehari-hari dipanggil bu aswan karena ibu adalah istri pak aswan.,Sehari-hari dipanggil Bu Aswan karena Ibu adalah istri Pak Aswan.,0.3200831413269043
+499,False,0.6666666666666666,Guru menerangkan tentang kedudukan orang tua dlam keluarga.,Guru menerangkan tentang kedudukan orang tua dalam keluarga.,Guru menerangkan tentang kedudukan orang tua di dalam keluarga.,0.28548264503479004

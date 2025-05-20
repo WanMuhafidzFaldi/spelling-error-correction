@@ -1,0 +1,2 @@
+Model,Exact_Match_Accuracy,Word_Match_Accuracy,Avg_Processing_Time
+llama3.1:8b,0.38276553106212424,0.7552916827219842,0.2967455181664599
